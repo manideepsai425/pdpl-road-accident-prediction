@@ -2,7 +2,8 @@ import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import HeatMap from "../components/HeatMap";
 import ZoneTable from "../components/ZoneTable";
-import { useZones } from "../hooks/useAccidentData";
+import { ... } from "../hooks/useAccidentData";
+
 
 const LEGEND = [
   { label: "Critical", color: "#FF3B30", range: "70–100" },
