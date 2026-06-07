@@ -1,102 +1,145 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 
-const colorMap = {
-  Critical: "#FF3B30",
-  High:     "#FF9500",
-  Medium:   "#FFCC00",
-  Low:      "#34C759",
+const riskConfig = {
+  Critical: { color: "#DC2626", bg: "#FEF2F2", border: "#FECACA" },
+  High:     { color: "#EF4444", bg: "#FEF2F2", border: "#FCA5A5" },
+  Medium:   { color: "#CA8A04", bg: "#FEFCE8", border: "#FDE68A" },
+  Low:      { color: "#16A34A", bg: "#F0FDF4", border: "#86EFAC" },
 };
 
-export default function ZoneTable({ zones }) {
-  const [sort, setSort] = useState("avg_risk_score");
+const rankColors = ["#22C55E","#3B82F6","#14B8A6","#8B5CF6","#EAB308"];
 
-  const sorted = [...zones].sort((a, b) => b[sort] - a[sort]);
+const sortOptions = [
+  { key: "avg_risk_score",  label: "Risk Score" },
+  { key: "total_accidents", label: "Accidents"  },
+  { key: "fatal_count",     label: "Fatal"      },
+];
 
+function MetricBox({ value, label, color }) {
   return (
-    <div>
-      <div style={{ display: "flex", gap: 8, marginBottom: 20, flexWrap: "wrap" }}>
-        {["avg_risk_score", "total_accidents", "fatal_count"].map(k => (
-          <motion.button
-            key={k}
-            whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}
-            onClick={() => setSort(k)}
-            style={{
-              padding: "7px 16px", borderRadius: 20, fontSize: 13,
-              background: sort === k ? "rgba(10,132,255,0.2)" : "rgba(255,255,255,0.04)",
-              border: sort === k ? "1px solid rgba(10,132,255,0.4)" : "1px solid rgba(255,255,255,0.08)",
-              color: sort === k ? "#0A84FF" : "rgba(255,255,255,0.55)",
-              cursor: "pointer", fontFamily: "inherit", transition: "all 0.2s",
-            }}
-          >
-            {k === "avg_risk_score" ? "Risk Score" : k === "total_accidents" ? "Accidents" : "Fatal"}
-          </motion.button>
-        ))}
-      </div>
-
-      <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
-        {sorted.map((z, i) => (
-          <motion.div
-            key={z.zone_id}
-            initial={{ opacity: 0, x: -20 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ delay: i * 0.05 }}
-            whileHover={{ x: 4, background: "rgba(255,255,255,0.05)" }}
-            style={{
-              padding: "16px 20px",
-              borderRadius: 16,
-              background: "rgba(255,255,255,0.03)",
-              border: "1px solid rgba(255,255,255,0.07)",
-              display: "flex", alignItems: "center", gap: 16,
-              transition: "all 0.25s ease", cursor: "default",
-            }}
-          >
-            <div style={{
-              width: 36, height: 36, borderRadius: 10,
-              background: `${colorMap[z.risk_label]}20`,
-              border: `1px solid ${colorMap[z.risk_label]}40`,
-              display: "flex", alignItems: "center", justifyContent: "center",
-              fontSize: 13, fontWeight: 800, color: colorMap[z.risk_label],
-              flexShrink: 0,
-            }}>
-              {i + 1}
-            </div>
-
-            <div style={{ flex: 1, minWidth: 0 }}>
-              <div style={{ fontSize: 14, fontWeight: 600, marginBottom: 4, color: "#fff", whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis" }}>
-                {z.location_name}
-              </div>
-              <div style={{ fontSize: 12, color: "rgba(255,255,255,0.4)" }}>
-                {z.top_road_type} · {z.top_weather}
-              </div>
-            </div>
-
-            <div style={{ display: "flex", gap: 20, flexShrink: 0, textAlign: "center" }}>
-              <Stat value={z.avg_risk_score.toFixed(0)} label="Risk" color={colorMap[z.risk_label]} />
-              <Stat value={z.total_accidents}           label="Total" />
-              <Stat value={z.fatal_count}               label="Fatal" color={z.fatal_count > 2 ? "#FF3B30" : undefined} />
-            </div>
-
-            <div style={{
-              padding: "4px 12px", borderRadius: 20, fontSize: 12, fontWeight: 600,
-              background: `${colorMap[z.risk_label]}18`,
-              border: `1px solid ${colorMap[z.risk_label]}35`,
-              color: colorMap[z.risk_label], flexShrink: 0,
-            }}>
-              {z.risk_label}
-            </div>
-          </motion.div>
-        ))}
-      </div>
+    <div style={{ textAlign: "center", minWidth: 52 }}>
+      <div style={{ fontSize: 20, fontWeight: 800, color,
+        fontFamily: "'Bricolage Grotesque', sans-serif", lineHeight: 1 }}>{value}</div>
+      <div style={{ fontSize: 10, color: "#94A3B8", fontWeight: 500,
+        textTransform: "uppercase", letterSpacing: 0.5, marginTop: 3 }}>{label}</div>
     </div>
   );
 }
 
-function Stat({ value, label, color }) {
+export default function ZoneTable({ zones }) {
+  const [sort, setSort] = useState("avg_risk_score");
+  const sorted = [...zones].sort((a, b) => b[sort] - a[sort]);
+
   return (
     <div>
-      <div style={{ fontSize: 17, fontWeight: 700, color: color || "#fff" }}>{value}</div>
-      <div style={{ fontSize: 10, color: "rgba(255,255,255,0.35)", letterSpacing: 0.5 }}>{label}</div>
+      {/* Sort tabs */}
+      <div style={{ display: "flex", gap: 8, marginBottom: 20, flexWrap: "wrap" }}>
+        <span style={{ fontSize: 13, color: "#94A3B8", fontWeight: 500,
+          alignSelf: "center", marginRight: 4 }}>Sort by:</span>
+        {sortOptions.map(opt => (
+          <motion.button
+            key={opt.key}
+            whileHover={{ scale: 1.04 }} whileTap={{ scale: 0.96 }}
+            onClick={() => setSort(opt.key)}
+            style={{
+              padding: "8px 18px", borderRadius: 22, fontSize: 13, fontWeight: 600,
+              background: sort === opt.key
+                ? "linear-gradient(135deg, #22C55E, #14B8A6)"
+                : "#fff",
+              border: sort === opt.key ? "none" : "1.5px solid #E2E8F0",
+              color: sort === opt.key ? "#fff" : "#475569",
+              cursor: "pointer", fontFamily: "inherit",
+              boxShadow: sort === opt.key ? "0 4px 14px rgba(34,197,94,0.25)" : "none",
+              transition: "all 0.22s ease",
+            }}
+          >{opt.label}</motion.button>
+        ))}
+        <div style={{ marginLeft: "auto", fontSize: 13, color: "#94A3B8", alignSelf: "center" }}>
+          {sorted.length} zones
+        </div>
+      </div>
+
+      {/* Cards */}
+      <div style={{ display: "flex", flexDirection: "column", gap: 12 }}>
+        {sorted.map((z, i) => {
+          const rc = riskConfig[z.risk_label] || riskConfig.Low;
+          const rankColor = rankColors[i] || "#94A3B8";
+          return (
+            <motion.div
+              key={z.zone_id}
+              initial={{ opacity: 0, x: -16 }}
+              animate={{ opacity: 1, x: 0 }}
+              transition={{ delay: i * 0.04, ease: [0.22, 1, 0.36, 1] }}
+              whileHover={{ x: 4, boxShadow: "0 8px 28px rgba(15,23,42,0.1)", background: "#FAFBFF" }}
+              style={{
+                padding: "18px 20px",
+                borderRadius: 18,
+                background: "#fff",
+                border: "1.5px solid #E2E8F0",
+                display: "flex", alignItems: "center", gap: 16,
+                transition: "all 0.25s ease",
+                boxShadow: "0 1px 6px rgba(15,23,42,0.05)",
+              }}
+            >
+              {/* Rank badge */}
+              <div style={{
+                width: 40, height: 40, borderRadius: 12, flexShrink: 0,
+                background: `${rankColor}18`,
+                border: `1.5px solid ${rankColor}35`,
+                display: "flex", alignItems: "center", justifyContent: "center",
+                fontSize: 14, fontWeight: 800, color: rankColor,
+                fontFamily: "'Bricolage Grotesque', sans-serif",
+              }}>
+                {i + 1}
+              </div>
+
+              {/* Location info */}
+              <div style={{ flex: 1, minWidth: 0 }}>
+                <div style={{
+                  fontSize: 14, fontWeight: 700, color: "#0F172A",
+                  fontFamily: "'Bricolage Grotesque', sans-serif",
+                  whiteSpace: "normal", wordBreak: "break-word",
+                  lineHeight: 1.35, marginBottom: 5,
+                }}>
+                  {z.location_name}
+                </div>
+                <div style={{ display: "flex", gap: 8, flexWrap: "wrap" }}>
+                  <span style={{ fontSize: 11, color: "#64748B", background: "#F1F5F9",
+                    padding: "2px 8px", borderRadius: 8, fontWeight: 500 }}>
+                    {z.top_road_type}
+                  </span>
+                  <span style={{ fontSize: 11, color: "#64748B", background: "#F1F5F9",
+                    padding: "2px 8px", borderRadius: 8, fontWeight: 500 }}>
+                    {z.top_weather}
+                  </span>
+                </div>
+              </div>
+
+              {/* Metrics */}
+              <div style={{
+                display: "flex", gap: 20, flexShrink: 0,
+                alignItems: "center",
+                borderLeft: "1px solid #F1F5F9", paddingLeft: 20,
+              }}>
+                <MetricBox value={z.avg_risk_score.toFixed(0)} label="Risk" color={rc.color} />
+                <MetricBox value={z.total_accidents}           label="Total" color="#3B82F6" />
+                <MetricBox value={z.fatal_count}               label="Fatal" color={z.fatal_count > 2 ? "#EF4444" : "#94A3B8"} />
+              </div>
+
+              {/* Risk badge */}
+              <div style={{
+                padding: "6px 14px", borderRadius: 22, fontSize: 12, fontWeight: 700,
+                background: rc.bg, border: `1px solid ${rc.border}`,
+                color: rc.color, flexShrink: 0,
+                letterSpacing: 0.3,
+              }}>
+                {z.risk_label}
+              </div>
+            </motion.div>
+          );
+        })}
+      </div>
     </div>
   );
 }
