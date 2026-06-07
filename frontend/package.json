@@ -13,7 +13,7 @@
     "react-dom":          "^18.3.1",
     "react-router-dom":   "^6.23.1",
     "framer-motion":      "^11.2.10",
-    "recharts":           "^2.12.7",
+    "recharts":           "^3.0.0",
     "leaflet":            "^1.9.4",
     "react-leaflet":      "^4.2.1",
     "leaflet.heat":       "^0.2.0",
