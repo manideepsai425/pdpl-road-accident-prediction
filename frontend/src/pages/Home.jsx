@@ -1,7 +1,8 @@
 import React, { useEffect, useRef } from "react";
 import { useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
-import { useSummary } from "../hooks/useAccidentData";
+import { useSummary } from "../hooks/useAccidentData"; 
+
 
 const fadeUp = (delay = 0) => ({
   initial: { opacity: 0, y: 30 },
