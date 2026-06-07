@@ -1,0 +1,6 @@
+{
+  "rewrites": [{ "source": "/(.*)", "destination": "/" }],
+  "env": {
+    "VITE_API_BASE_URL": "https://pdpl-accident-prediction-api.onrender.com"
+  }
+}
