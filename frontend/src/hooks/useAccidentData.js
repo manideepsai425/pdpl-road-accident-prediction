@@ -57,5 +57,4 @@ export function useZones() {
   }, []);
 
   return { data, loading, error };
-                                         }
-            
+}
