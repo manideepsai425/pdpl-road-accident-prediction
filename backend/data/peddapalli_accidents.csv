@@ -1,0 +1,501 @@
+accident_id,date,time,hour,day_of_week,month,year,location_name,latitude,longitude,road_type,weather,road_condition,light_condition,speed_limit_kmph,traffic_volume,vehicles_involved,vehicle_type,collision_type,severity,risk_score,accident_occurred,is_weekend,is_peak_hour,is_night
+1001,2021-08-17,02:17,2,Tuesday,8,2021,Peddapalli Town Circle,18.615309,79.382238,Urban Road,Clear,Good,Daylight,40,189,3,Bus,Head-On,Serious,43,1,0,0,1
+1002,2021-03-03,05:14,5,Wednesday,3,2021,NH-163 Near Peddapalli Toll Plaza,18.613029,79.380929,Highway,Rainy,Good,Daylight,80,421,2,Bus,Rear-End,Minor,34,1,0,0,1
+1003,2022-07-24,18:00,18,Sunday,7,2022,Korutla Junction Near Peddapalli,18.531837,79.323653,State Highway,Foggy,Good,Daylight,60,426,2,Car/Jeep,Pedestrian,Minor,30,1,1,1,0
+1004,2021-07-09,10:22,10,Friday,7,2021,Ramagundam Bypass Junction,18.752483,79.497871,Bypass,Overcast,Potholed,Dark – Street Light,70,343,3,Bus,Head-On,Serious,57,1,0,0,0
+1005,2022-08-24,18:39,18,Wednesday,8,2022,Ramagundam Bypass Junction,18.745234,79.491575,Bypass,Overcast,Good,Daylight,70,319,1,Tractor,Head-On,Minor,34,1,0,1,0
+1006,2022-04-22,19:24,19,Friday,4,2022,Ramagundam Bypass Junction,18.749736,79.501771,Bypass,Clear,Potholed,Daylight,70,255,2,Car/Jeep,Side-Swipe,Serious,50,1,0,1,0
+1007,2021-12-17,13:15,13,Friday,12,2021,Ramagundam Bypass Junction,18.747738,79.507528,Bypass,Clear,Good,Dawn/Dusk,70,227,2,Bus,Head-On,Serious,40,1,0,0,0
+1008,2021-04-25,08:02,8,Sunday,4,2021,Mancherial Road – Peddapalli Border,18.681338,79.437876,State Highway,Overcast,Potholed,Daylight,60,281,4,Bus,Hit-and-Run,Serious,40,1,1,1,0
+1009,2023-10-20,11:58,11,Friday,10,2023,Sulthanabad Cross Roads,18.592555,79.415245,Highway,Rainy,Good,Daylight,80,256,3,Bus,Rear-End,Serious,48,1,0,0,0
+1010,2023-03-29,10:08,10,Wednesday,3,2023,Ramagundam NTPC Gate Road,18.774997,79.491542,Industrial Road,Rainy,Good,Daylight,40,180,2,Tractor,Head-On,Minor,38,1,0,0,0
+1011,2021-05-11,10:38,10,Tuesday,5,2021,Korutla Junction Near Peddapalli,18.537261,79.325933,State Highway,Night Drizzle,Potholed,Dawn/Dusk,60,251,3,Two-Wheeler,Side-Swipe,Serious,58,1,0,0,0
+1012,2022-07-01,17:21,17,Friday,7,2022,Peddapalli Town Circle,18.620113,79.372896,Urban Road,Clear,Potholed,Dark – No Street Light,40,65,4,Tractor,Rear-End,Serious,61,1,0,1,0
+1013,2022-01-01,13:06,13,Saturday,1,2022,Srirampur Road Stretch,18.710202,79.528359,District Road,Overcast,Good,Dark – No Street Light,50,166,2,Car/Jeep,Rear-End,Minor,10,0,1,0,0
+1014,2023-12-23,20:38,20,Saturday,12,2023,Srirampur Road Stretch,18.723692,79.535857,District Road,Clear,Good,Dawn/Dusk,50,165,3,Auto-Rickshaw,Head-On,Minor,37,1,1,0,1
+1015,2021-06-11,05:31,5,Friday,6,2021,Kataram Village Road,18.638494,79.394607,Village Road,Overcast,Gravelled,Dark – No Street Light,30,140,2,Tractor,Rear-End,Serious,42,1,0,0,1
+1016,2022-06-27,13:38,13,Monday,6,2022,Manthani Bridge Approach,18.650697,79.665386,District Road,Clear,Good,Dark – No Street Light,50,92,3,Car/Jeep,Side-Swipe,Minor,27,1,0,0,0
+1017,2023-02-04,12:33,12,Saturday,2,2023,Peddapalli Town Circle,18.607185,79.38062,Urban Road,Clear,Good,Daylight,40,177,1,Bus,Head-On,Minor,12,0,1,0,0
+1018,2021-05-01,08:57,8,Saturday,5,2021,Ramagundam Old Town Road,18.758615,79.490058,Urban Road,Clear,Good,Dark – No Street Light,40,119,2,Truck/Lorry,Head-On,Minor,34,1,1,1,0
+1019,2023-08-27,08:30,8,Sunday,8,2023,Ramagundam Old Town Road,18.766656,79.482804,Urban Road,Overcast,Good,Daylight,40,232,2,Truck/Lorry,Rear-End,Minor,1,0,1,1,0
+1020,2021-07-21,04:46,4,Wednesday,7,2021,Peddapalli Town Circle,18.617656,79.383878,Urban Road,Clear,Under Construction,Daylight,40,125,2,Truck/Lorry,Head-On,Minor,30,1,0,0,1
+1021,2023-08-06,08:59,8,Sunday,8,2023,Godavari Bridge NH-163,18.701172,79.512468,Bridge Road,Clear,Under Construction,Dark – Street Light,60,111,1,Tractor,Pedestrian,Minor,20,1,1,1,0
+1022,2022-04-30,07:31,7,Saturday,4,2022,Kataram Village Road,18.644063,79.408781,Village Road,Clear,Under Construction,Dawn/Dusk,30,54,2,Two-Wheeler,Pedestrian,Serious,43,1,1,1,0
+1023,2023-07-21,09:44,9,Friday,7,2023,Kataram Village Road,18.645018,79.403808,Village Road,Night Drizzle,Gravelled,Dark – No Street Light,30,144,3,Car/Jeep,Head-On,Fatal,86,1,0,1,0
+1024,2021-05-05,17:03,17,Wednesday,5,2021,NH-163 Near Peddapalli Toll Plaza,18.616007,79.38979,Highway,Clear,Potholed,Dawn/Dusk,80,248,2,Two-Wheeler,Pedestrian,Serious,47,1,0,1,0
+1025,2022-01-16,05:04,5,Sunday,1,2022,Mancherial Road – Peddapalli Border,18.688823,79.431901,State Highway,Rainy,Good,Daylight,60,297,3,Car/Jeep,Side-Swipe,Minor,21,0,1,0,1
+1026,2023-12-07,09:16,9,Thursday,12,2023,Ramagundam NTPC Gate Road,18.778435,79.491505,Industrial Road,Clear,Wet,Daylight,40,215,2,Tractor,Side-Swipe,Minor,34,1,0,1,0
+1027,2021-05-29,00:39,0,Saturday,5,2021,Jammikunta–Peddapalli Road,18.551262,79.309302,State Highway,Night Drizzle,Gravelled,Daylight,60,307,2,Auto-Rickshaw,Head-On,Fatal,71,1,1,0,1
+1028,2021-05-21,19:23,19,Friday,5,2021,Kataram Village Road,18.647389,79.399409,Village Road,Clear,Potholed,Dark – No Street Light,30,178,2,Tractor,Rear-End,Serious,52,1,0,1,0
+1029,2021-08-01,21:08,21,Sunday,8,2021,Godavari Bridge NH-163,18.699591,79.522577,Bridge Road,Clear,Under Construction,Dark – Street Light,60,85,2,Auto-Rickshaw,Side-Swipe,Minor,20,0,1,0,1
+1030,2022-06-25,13:16,13,Saturday,6,2022,Peddapalli Town Circle,18.613351,79.381566,Urban Road,Overcast,Under Construction,Daylight,40,176,2,Auto-Rickshaw,Head-On,Minor,35,1,1,0,0
+1031,2021-09-25,15:16,15,Saturday,9,2021,Srirampur Road Stretch,18.724843,79.53149,District Road,Clear,Potholed,Dark – Street Light,50,157,2,Two-Wheeler,Head-On,Minor,29,0,1,0,0
+1032,2023-01-27,14:09,14,Friday,1,2023,Mancherial Road – Peddapalli Border,18.679039,79.437682,State Highway,Clear,Good,Daylight,60,273,4,Two-Wheeler,Hit-and-Run,Minor,6,0,0,0,0
+1033,2021-07-30,10:35,10,Friday,7,2021,Peddapalli Town Circle,18.617305,79.379026,Urban Road,Overcast,Potholed,Dark – No Street Light,40,173,2,Car/Jeep,Hit-and-Run,Minor,30,1,0,0,0
+1034,2023-04-25,02:47,2,Tuesday,4,2023,Kataram Village Road,18.632923,79.399897,Village Road,Night Drizzle,Wet,Daylight,30,131,3,Tractor,Rollover,Fatal,78,1,0,0,1
+1035,2021-08-10,10:02,10,Tuesday,8,2021,Manthani Bridge Approach,18.648989,79.659294,District Road,Overcast,Good,Dark – Street Light,50,122,2,Auto-Rickshaw,Rollover,Minor,12,0,0,0,0
+1036,2022-01-31,11:17,11,Monday,1,2022,Peddapalli Town Circle,18.625431,79.379873,Urban Road,Overcast,Gravelled,Daylight,40,182,2,Truck/Lorry,Side-Swipe,Minor,27,0,0,0,0
+1037,2021-08-25,19:16,19,Wednesday,8,2021,NH-163 Near Peddapalli Toll Plaza,18.613828,79.372506,Highway,Clear,Gravelled,Daylight,80,320,2,Truck/Lorry,Rear-End,Serious,40,1,0,1,0
+1038,2023-11-14,06:57,6,Tuesday,11,2023,Ramagundam NTPC Gate Road,18.778301,79.505316,Industrial Road,Rainy,Good,Dark – Street Light,40,147,1,Bus,Side-Swipe,Minor,16,0,0,0,0
+1039,2022-11-08,15:42,15,Tuesday,11,2022,Ramagundam Bypass Junction,18.756308,79.500026,Bypass,Overcast,Wet,Daylight,70,284,2,Truck/Lorry,Rear-End,Minor,29,0,0,0,0
+1040,2023-05-12,16:24,16,Friday,5,2023,Sulthanabad Cross Roads,18.597714,79.42476,Highway,Rainy,Under Construction,Dark – No Street Light,80,206,2,Bus,Hit-and-Run,Serious,64,1,0,0,0
+1041,2022-03-07,11:37,11,Monday,3,2022,Godavari Bridge NH-163,18.697553,79.525014,Bridge Road,Rainy,Good,Daylight,60,213,3,Bus,Rear-End,Minor,25,0,0,0,0
+1042,2023-11-22,16:39,16,Wednesday,11,2023,Godavari Bridge NH-163,18.705034,79.528952,Bridge Road,Clear,Under Construction,Dark – Street Light,60,37,3,Car/Jeep,Rollover,Minor,39,1,0,0,0
+1043,2021-04-05,08:30,8,Monday,4,2021,NH-163 Near Peddapalli Toll Plaza,18.611369,79.382598,Highway,Rainy,Wet,Dark – No Street Light,80,220,3,Bus,Head-On,Fatal,100,1,0,1,0
+1044,2023-03-30,08:41,8,Thursday,3,2023,Dharmaram Crossroad,18.667247,79.365343,Village Road,Rainy,Under Construction,Dark – Street Light,30,109,3,Truck/Lorry,Head-On,Fatal,81,1,0,1,0
+1045,2021-04-13,14:58,14,Tuesday,4,2021,Dharmaram Crossroad,18.677368,79.360403,Village Road,Overcast,Potholed,Dark – Street Light,30,65,3,Bus,Side-Swipe,Minor,34,1,0,0,0
+1046,2023-10-31,11:58,11,Tuesday,10,2023,Korutla Junction Near Peddapalli,18.524084,79.32439,State Highway,Rainy,Under Construction,Dark – Street Light,60,423,2,Auto-Rickshaw,Rollover,Serious,65,1,0,0,0
+1047,2023-12-04,12:15,12,Monday,12,2023,Godavari Bridge NH-163,18.695946,79.519137,Bridge Road,Clear,Good,Daylight,60,215,2,Auto-Rickshaw,Hit-and-Run,Minor,0,0,0,0,0
+1048,2023-02-24,16:45,16,Friday,2,2023,Sulthanabad Cross Roads,18.583963,79.421923,Highway,Clear,Potholed,Daylight,80,404,2,Two-Wheeler,Head-On,Serious,48,1,0,0,0
+1049,2021-02-10,19:48,19,Wednesday,2,2021,Ramagundam NTPC Gate Road,18.781909,79.486815,Industrial Road,Rainy,Potholed,Dawn/Dusk,40,170,2,Truck/Lorry,Hit-and-Run,Serious,68,1,0,1,0
+1050,2022-03-28,12:17,12,Monday,3,2022,Karimnagar Highway Fork Peddapalli,18.60311,79.355485,Highway,Clear,Good,Daylight,80,194,3,Truck/Lorry,Side-Swipe,Minor,24,1,0,0,0
+1051,2023-12-30,02:25,2,Saturday,12,2023,Korutla Junction Near Peddapalli,18.529732,79.3226,State Highway,Rainy,Wet,Daylight,60,320,2,Truck/Lorry,Head-On,Serious,68,1,1,0,1
+1052,2022-11-02,07:20,7,Wednesday,11,2022,Ramagundam NTPC Gate Road,18.779465,79.489428,Industrial Road,Clear,Under Construction,Daylight,40,168,4,Truck/Lorry,Rear-End,Minor,32,1,0,1,0
+1053,2021-02-09,17:03,17,Tuesday,2,2021,Dharmaram Crossroad,18.677369,79.359043,Village Road,Night Drizzle,Good,Dark – No Street Light,30,299,3,Tractor,Head-On,Serious,60,1,0,1,0
+1054,2022-02-13,18:39,18,Sunday,2,2022,Sulthanabad Cross Roads,18.587127,79.424935,Highway,Clear,Good,Dark – No Street Light,80,352,2,Car/Jeep,Rear-End,Minor,33,1,1,1,0
+1055,2023-01-26,07:38,7,Thursday,1,2023,Srirampur Road Stretch,18.715897,79.539817,District Road,Night Drizzle,Wet,Dark – Street Light,50,242,2,Auto-Rickshaw,Head-On,Serious,55,1,0,1,0
+1056,2022-10-01,14:58,14,Saturday,10,2022,Kataram Village Road,18.64411,79.411484,Village Road,Night Drizzle,Good,Dark – Street Light,30,183,1,Tractor,Hit-and-Run,Minor,17,0,1,0,0
+1057,2022-09-10,19:38,19,Saturday,9,2022,Srirampur Road Stretch,18.716231,79.530552,District Road,Overcast,Wet,Dark – No Street Light,50,130,1,Bus,Rear-End,Serious,46,1,1,1,0
+1058,2023-11-03,16:00,16,Friday,11,2023,Ramagundam Bypass Junction,18.754414,79.501906,Bypass,Overcast,Under Construction,Daylight,70,234,4,Tractor,Hit-and-Run,Serious,44,1,0,0,0
+1059,2021-11-10,11:46,11,Wednesday,11,2021,Ramagundam Old Town Road,18.766136,79.487065,Urban Road,Rainy,Wet,Dark – No Street Light,40,172,4,Truck/Lorry,Rear-End,Fatal,73,1,0,0,0
+1060,2022-10-23,19:53,19,Sunday,10,2022,Godavari Bridge NH-163,18.700777,79.531601,Bridge Road,Night Drizzle,Good,Dark – No Street Light,60,266,3,Bus,Side-Swipe,Serious,57,1,1,1,0
+1061,2021-02-28,13:20,13,Sunday,2,2021,Jammikunta–Peddapalli Road,18.556914,79.305046,State Highway,Clear,Good,Dark – Street Light,60,350,2,Bus,Side-Swipe,Minor,0,0,1,0,0
+1062,2022-01-27,05:46,5,Thursday,1,2022,Karimnagar Highway Fork Peddapalli,18.599383,79.35757,Highway,Clear,Potholed,Daylight,80,338,2,Tractor,Rear-End,Minor,20,0,0,0,1
+1063,2023-04-09,16:19,16,Sunday,4,2023,Sulthanabad Cross Roads,18.591636,79.416766,Highway,Rainy,Good,Dark – No Street Light,80,337,2,Tractor,Side-Swipe,Serious,46,1,1,0,0
+1064,2023-07-19,08:16,8,Wednesday,7,2023,Ramagundam Old Town Road,18.759767,79.491282,Urban Road,Clear,Wet,Daylight,40,28,3,Tractor,Head-On,Serious,51,1,0,1,0
+1065,2023-09-19,08:37,8,Tuesday,9,2023,Ramagundam Old Town Road,18.755771,79.487866,Urban Road,Night Drizzle,Potholed,Daylight,40,167,2,Car/Jeep,Rear-End,Serious,51,1,0,1,0
+1066,2022-09-12,01:34,1,Monday,9,2022,Manthani Bridge Approach,18.648581,79.660869,District Road,Clear,Good,Daylight,50,180,2,Car/Jeep,Side-Swipe,Minor,20,0,0,0,1
+1067,2022-08-06,12:28,12,Saturday,8,2022,NH-163 Near Peddapalli Toll Plaza,18.608485,79.383889,Highway,Clear,Gravelled,Daylight,80,304,3,Two-Wheeler,Rollover,Serious,57,1,1,0,0
+1068,2021-06-01,14:43,14,Tuesday,6,2021,Dharmaram Crossroad,18.680415,79.370269,Village Road,Clear,Good,Dark – No Street Light,30,194,2,Car/Jeep,Head-On,Minor,33,1,0,0,0
+1069,2022-04-08,17:24,17,Friday,4,2022,Korutla Junction Near Peddapalli,18.523311,79.328575,State Highway,Clear,Potholed,Dark – Street Light,60,189,4,Auto-Rickshaw,Side-Swipe,Minor,31,1,0,1,0
+1070,2021-07-23,21:13,21,Friday,7,2021,Korutla Junction Near Peddapalli,18.530575,79.345264,State Highway,Rainy,Good,Daylight,60,341,2,Bus,Head-On,Minor,25,0,0,0,1
+1071,2023-08-21,09:14,9,Monday,8,2023,Ramagundam Old Town Road,18.767678,79.49177,Urban Road,Clear,Good,Dark – Street Light,40,195,1,Car/Jeep,Hit-and-Run,Minor,20,0,0,1,0
+1072,2022-02-10,11:34,11,Thursday,2,2022,Srirampur Road Stretch,18.718424,79.538795,District Road,Clear,Good,Daylight,50,202,2,Two-Wheeler,Head-On,Minor,14,0,0,0,0
+1073,2022-08-15,12:29,12,Monday,8,2022,Mancherial Road – Peddapalli Border,18.679816,79.442573,State Highway,Rainy,Wet,Dawn/Dusk,60,238,2,Truck/Lorry,Rear-End,Serious,64,1,0,0,0
+1074,2023-06-04,17:38,17,Sunday,6,2023,NH-163 Near Peddapalli Toll Plaza,18.625773,79.372764,Highway,Clear,Good,Dawn/Dusk,80,306,3,Bus,Side-Swipe,Minor,35,1,1,1,0
+1075,2022-07-06,14:48,14,Wednesday,7,2022,Srirampur Road Stretch,18.711936,79.53264,District Road,Foggy,Potholed,Dark – No Street Light,50,204,4,Car/Jeep,Pedestrian,Serious,68,1,0,0,0
+1076,2023-10-05,22:30,22,Thursday,10,2023,Peddapalli Town Circle,18.616321,79.373611,Urban Road,Clear,Good,Dark – No Street Light,40,237,3,Auto-Rickshaw,Rear-End,Serious,45,1,0,0,1
+1077,2023-04-01,18:35,18,Saturday,4,2023,Godavari Bridge NH-163,18.705498,79.514348,Bridge Road,Clear,Good,Daylight,60,92,2,Truck/Lorry,Hit-and-Run,Minor,0,0,1,1,0
+1078,2023-08-05,11:12,11,Saturday,8,2023,Karimnagar Highway Fork Peddapalli,18.600728,79.350742,Highway,Rainy,Potholed,Dark – No Street Light,80,317,2,Two-Wheeler,Head-On,Fatal,87,1,1,0,0
+1079,2022-08-13,12:44,12,Saturday,8,2022,Manthani Bridge Approach,18.65617,79.649974,District Road,Clear,Good,Dark – No Street Light,50,321,3,Tractor,Head-On,Serious,47,1,1,0,0
+1080,2023-04-16,05:53,5,Sunday,4,2023,NH-163 Near Peddapalli Toll Plaza,18.610891,79.386362,Highway,Overcast,Potholed,Daylight,80,314,3,Truck/Lorry,Pedestrian,Minor,39,1,1,0,1
+1081,2022-07-14,11:30,11,Thursday,7,2022,Karimnagar Highway Fork Peddapalli,18.599926,79.356525,Highway,Night Drizzle,Good,Dark – No Street Light,80,236,2,Bus,Rear-End,Minor,39,1,0,0,0
+1082,2021-05-23,08:50,8,Sunday,5,2021,Mancherial Road – Peddapalli Border,18.674999,79.443327,State Highway,Overcast,Good,Dark – Street Light,60,369,2,Two-Wheeler,Rear-End,Minor,9,1,1,1,0
+1083,2023-09-30,19:28,19,Saturday,9,2023,Korutla Junction Near Peddapalli,18.524733,79.334827,State Highway,Rainy,Good,Dark – No Street Light,60,262,2,Truck/Lorry,Pedestrian,Serious,41,1,1,1,0
+1084,2022-05-05,14:14,14,Thursday,5,2022,Ramagundam Old Town Road,18.755696,79.491589,Urban Road,Overcast,Potholed,Daylight,40,182,2,Truck/Lorry,Rear-End,Minor,30,1,0,0,0
+1085,2023-10-12,21:08,21,Thursday,10,2023,Manthani Bridge Approach,18.658162,79.652503,District Road,Rainy,Potholed,Dark – Street Light,50,319,3,Truck/Lorry,Head-On,Serious,69,1,0,0,1
+1086,2021-10-23,11:41,11,Saturday,10,2021,NH-163 Near Peddapalli Toll Plaza,18.620535,79.378562,Highway,Night Drizzle,Good,Dark – Street Light,80,261,2,Bus,Side-Swipe,Serious,40,1,1,0,0
+1087,2022-11-04,19:54,19,Friday,11,2022,Ramagundam Bypass Junction,18.758673,79.495565,Bypass,Rainy,Gravelled,Dark – No Street Light,70,335,3,Truck/Lorry,Hit-and-Run,Fatal,76,1,0,1,0
+1088,2021-05-21,08:43,8,Friday,5,2021,Korutla Junction Near Peddapalli,18.511794,79.320878,State Highway,Night Drizzle,Gravelled,Dark – Street Light,60,295,2,Two-Wheeler,Rollover,Serious,58,1,0,1,0
+1089,2021-12-07,16:57,16,Tuesday,12,2021,Dharmaram Crossroad,18.668761,79.373162,Village Road,Clear,Good,Daylight,30,129,2,Truck/Lorry,Head-On,Minor,21,0,0,0,0
+1090,2022-01-04,07:05,7,Tuesday,1,2022,Peddapalli Town Circle,18.6138,79.379654,Urban Road,Rainy,Good,Dark – No Street Light,40,35,2,Bus,Head-On,Serious,64,1,0,1,0
+1091,2022-06-05,12:42,12,Sunday,6,2022,Peddapalli Town Circle,18.608821,79.384816,Urban Road,Clear,Under Construction,Dawn/Dusk,40,265,3,Car/Jeep,Head-On,Serious,61,1,1,0,0
+1092,2022-09-05,15:27,15,Monday,9,2022,Korutla Junction Near Peddapalli,18.523092,79.328311,State Highway,Rainy,Potholed,Daylight,60,300,4,Truck/Lorry,Head-On,Serious,67,1,0,0,0
+1093,2023-01-06,14:44,14,Friday,1,2023,Korutla Junction Near Peddapalli,18.524999,79.326349,State Highway,Clear,Gravelled,Dark – No Street Light,60,315,2,Bus,Hit-and-Run,Minor,26,1,0,0,0
+1094,2023-10-15,18:57,18,Sunday,10,2023,Ramagundam Old Town Road,18.762568,79.490311,Urban Road,Clear,Wet,Dark – No Street Light,40,119,2,Tractor,Head-On,Serious,58,1,1,1,0
+1095,2021-10-08,15:57,15,Friday,10,2021,Peddapalli Town Circle,18.609811,79.389665,Urban Road,Rainy,Good,Dark – Street Light,40,276,1,Auto-Rickshaw,Side-Swipe,Minor,12,1,0,0,0
+1096,2023-05-01,07:08,7,Monday,5,2023,Jammikunta–Peddapalli Road,18.560441,79.313342,State Highway,Foggy,Under Construction,Daylight,60,143,2,Auto-Rickshaw,Hit-and-Run,Serious,48,1,0,1,0
+1097,2023-09-14,21:18,21,Thursday,9,2023,Kataram Village Road,18.636887,79.400959,Village Road,Foggy,Good,Daylight,30,172,4,Car/Jeep,Rollover,Serious,42,1,0,0,1
+1098,2023-03-25,21:51,21,Saturday,3,2023,Mancherial Road – Peddapalli Border,18.678053,79.449248,State Highway,Rainy,Good,Daylight,60,260,2,Two-Wheeler,Rear-End,Minor,18,0,1,0,1
+1099,2023-01-31,06:14,6,Tuesday,1,2023,Mancherial Road – Peddapalli Border,18.677535,79.449498,State Highway,Clear,Potholed,Dawn/Dusk,60,328,2,Bus,Head-On,Serious,42,1,0,0,0
+1100,2023-08-09,20:19,20,Wednesday,8,2023,Peddapalli Town Circle,18.620064,79.382148,Urban Road,Rainy,Good,Daylight,40,174,1,Truck/Lorry,Head-On,Minor,32,1,0,0,1
+1101,2021-10-05,11:23,11,Tuesday,10,2021,Kataram Village Road,18.637199,79.405736,Village Road,Rainy,Wet,Dawn/Dusk,30,83,2,Tractor,Side-Swipe,Serious,58,1,0,0,0
+1102,2021-07-22,18:39,18,Thursday,7,2021,Peddapalli Town Circle,18.615895,79.379587,Urban Road,Clear,Gravelled,Daylight,40,198,2,Truck/Lorry,Rear-End,Minor,27,1,0,1,0
+1103,2023-01-23,14:41,14,Monday,1,2023,Ramagundam Bypass Junction,18.751842,79.502935,Bypass,Clear,Good,Daylight,70,402,2,Truck/Lorry,Head-On,Minor,21,0,0,0,0
+1104,2021-02-13,04:21,4,Saturday,2,2021,Korutla Junction Near Peddapalli,18.526912,79.331494,State Highway,Clear,Good,Dark – No Street Light,60,283,1,Bus,Head-On,Minor,26,1,1,0,1
+1105,2022-11-04,17:50,17,Friday,11,2022,Sulthanabad Cross Roads,18.596068,79.427527,Highway,Overcast,Good,Dark – Street Light,80,366,2,Car/Jeep,Rear-End,Minor,15,0,0,1,0
+1106,2021-02-22,06:22,6,Monday,2,2021,Mancherial Road – Peddapalli Border,18.68441,79.443449,State Highway,Foggy,Good,Daylight,60,301,2,Two-Wheeler,Head-On,Minor,38,1,0,0,0
+1107,2021-08-21,17:30,17,Saturday,8,2021,Karimnagar Highway Fork Peddapalli,18.599849,79.354485,Highway,Clear,Good,Dark – No Street Light,80,325,2,Car/Jeep,Pedestrian,Minor,26,1,1,1,0
+1108,2023-12-04,09:41,9,Monday,12,2023,Kataram Village Road,18.635909,79.412462,Village Road,Night Drizzle,Good,Dark – No Street Light,30,197,2,Tractor,Head-On,Serious,64,1,0,1,0
+1109,2021-06-15,09:09,9,Tuesday,6,2021,Ramagundam Bypass Junction,18.748729,79.505991,Bypass,Clear,Good,Dark – No Street Light,70,219,2,Auto-Rickshaw,Rear-End,Serious,44,1,0,1,0
+1110,2022-08-27,12:38,12,Saturday,8,2022,Karimnagar Highway Fork Peddapalli,18.603621,79.357142,Highway,Clear,Wet,Daylight,80,363,3,Bus,Side-Swipe,Minor,36,1,1,0,0
+1111,2023-07-14,19:26,19,Friday,7,2023,Ramagundam NTPC Gate Road,18.773514,79.493379,Industrial Road,Clear,Potholed,Daylight,40,149,1,Truck/Lorry,Rear-End,Minor,28,0,0,1,0
+1112,2023-08-30,05:53,5,Wednesday,8,2023,Manthani Bridge Approach,18.657876,79.659365,District Road,Clear,Potholed,Dark – Street Light,50,95,2,Car/Jeep,Side-Swipe,Minor,28,1,0,0,1
+1113,2022-11-07,16:26,16,Monday,11,2022,Karimnagar Highway Fork Peddapalli,18.598893,79.356065,Highway,Clear,Wet,Dark – Street Light,80,233,3,Tractor,Head-On,Serious,54,1,0,0,0
+1114,2022-10-02,10:36,10,Sunday,10,2022,Korutla Junction Near Peddapalli,18.523889,79.327218,State Highway,Rainy,Good,Dark – No Street Light,60,254,3,Auto-Rickshaw,Hit-and-Run,Serious,46,1,1,0,0
+1115,2022-07-25,14:51,14,Monday,7,2022,Ramagundam Bypass Junction,18.752265,79.497845,Bypass,Clear,Potholed,Dark – Street Light,70,319,2,Tractor,Side-Swipe,Minor,20,0,0,0,0
+1116,2022-07-02,02:17,2,Saturday,7,2022,Peddapalli Town Circle,18.60876,79.371963,Urban Road,Foggy,Good,Daylight,40,168,1,Car/Jeep,Side-Swipe,Minor,37,1,1,0,1
+1117,2021-10-18,17:01,17,Monday,10,2021,Ramagundam Bypass Junction,18.753733,79.501755,Bypass,Clear,Potholed,Daylight,70,242,2,Car/Jeep,Rear-End,Serious,40,1,0,1,0
+1118,2021-06-23,19:09,19,Wednesday,6,2021,Srirampur Road Stretch,18.724288,79.5342,District Road,Clear,Potholed,Dark – No Street Light,50,268,2,Tractor,Rear-End,Serious,54,1,0,1,0
+1119,2023-04-29,08:48,8,Saturday,4,2023,Dharmaram Crossroad,18.669987,79.364907,Village Road,Rainy,Good,Daylight,30,148,3,Bus,Rear-End,Minor,39,1,1,1,0
+1120,2022-03-28,11:38,11,Monday,3,2022,NH-163 Near Peddapalli Toll Plaza,18.615814,79.377964,Highway,Clear,Good,Dawn/Dusk,80,276,3,Auto-Rickshaw,Rear-End,Minor,28,0,0,0,0
+1121,2023-06-01,07:24,7,Thursday,6,2023,Ramagundam Old Town Road,18.769664,79.486456,Urban Road,Rainy,Good,Dark – No Street Light,40,191,3,Auto-Rickshaw,Head-On,Serious,61,1,0,1,0
+1122,2021-02-08,12:04,12,Monday,2,2021,Ramagundam NTPC Gate Road,18.781451,79.490994,Industrial Road,Overcast,Potholed,Dark – No Street Light,40,182,3,Truck/Lorry,Rear-End,Serious,47,1,0,0,0
+1123,2022-10-28,07:39,7,Friday,10,2022,NH-163 Near Peddapalli Toll Plaza,18.614263,79.382588,Highway,Clear,Wet,Daylight,80,317,2,Two-Wheeler,Head-On,Serious,63,1,0,1,0
+1124,2023-12-10,05:55,5,Sunday,12,2023,Ramagundam NTPC Gate Road,18.778123,79.49549,Industrial Road,Clear,Good,Daylight,40,88,2,Bus,Side-Swipe,Minor,6,0,1,0,1
+1125,2022-12-17,10:52,10,Saturday,12,2022,Kataram Village Road,18.644796,79.412766,Village Road,Rainy,Good,Daylight,30,266,2,Car/Jeep,Side-Swipe,Minor,30,1,1,0,0
+1126,2021-12-29,21:40,21,Wednesday,12,2021,Ramagundam Bypass Junction,18.759162,79.501117,Bypass,Clear,Wet,Dark – Street Light,70,238,2,Bus,Side-Swipe,Minor,39,1,0,0,1
+1127,2022-10-10,07:04,7,Monday,10,2022,Jammikunta–Peddapalli Road,18.557159,79.306201,State Highway,Clear,Potholed,Dark – Street Light,60,475,2,Auto-Rickshaw,Rear-End,Minor,29,0,0,1,0
+1128,2021-04-27,10:18,10,Tuesday,4,2021,NH-163 Near Peddapalli Toll Plaza,18.603581,79.379471,Highway,Clear,Under Construction,Dark – Street Light,80,252,2,Bus,Rear-End,Minor,38,1,0,0,0
+1129,2021-03-26,12:51,12,Friday,3,2021,Karimnagar Highway Fork Peddapalli,18.601252,79.355709,Highway,Rainy,Good,Dark – No Street Light,80,239,2,Two-Wheeler,Rear-End,Serious,45,1,0,0,0
+1130,2021-06-22,13:11,13,Tuesday,6,2021,Ramagundam Old Town Road,18.766752,79.484115,Urban Road,Clear,Wet,Dawn/Dusk,40,300,2,Bus,Head-On,Serious,51,1,0,0,0
+1131,2022-08-03,11:49,11,Wednesday,8,2022,Kataram Village Road,18.64246,79.395399,Village Road,Clear,Potholed,Dark – Street Light,30,78,2,Two-Wheeler,Rear-End,Minor,27,0,0,0,0
+1132,2022-06-01,17:42,17,Wednesday,6,2022,Godavari Bridge NH-163,18.707997,79.515654,Bridge Road,Night Drizzle,Potholed,Daylight,60,296,1,Tractor,Head-On,Serious,66,1,0,1,0
+1133,2023-03-14,06:45,6,Tuesday,3,2023,Godavari Bridge NH-163,18.708869,79.517427,Bridge Road,Night Drizzle,Good,Daylight,60,20,3,Car/Jeep,Side-Swipe,Minor,36,1,0,0,0
+1134,2023-05-18,13:01,13,Thursday,5,2023,Ramagundam Bypass Junction,18.746828,79.497203,Bypass,Clear,Good,Daylight,70,399,4,Truck/Lorry,Head-On,Minor,29,0,0,0,0
+1135,2021-07-27,13:34,13,Tuesday,7,2021,Godavari Bridge NH-163,18.702335,79.51575,Bridge Road,Overcast,Under Construction,Daylight,60,150,2,Bus,Head-On,Minor,37,1,0,0,0
+1136,2021-11-29,07:44,7,Monday,11,2021,Manthani Bridge Approach,18.647662,79.659388,District Road,Foggy,Under Construction,Daylight,50,199,2,Truck/Lorry,Rear-End,Serious,47,1,0,1,0
+1137,2022-08-07,17:50,17,Sunday,8,2022,Dharmaram Crossroad,18.677572,79.368558,Village Road,Clear,Potholed,Daylight,30,159,3,Truck/Lorry,Hit-and-Run,Minor,36,1,1,1,0
+1138,2023-06-22,12:18,12,Thursday,6,2023,Jammikunta–Peddapalli Road,18.553529,79.316788,State Highway,Foggy,Potholed,Daylight,60,210,2,Car/Jeep,Rollover,Serious,49,1,0,0,0
+1139,2022-05-28,04:30,4,Saturday,5,2022,Mancherial Road – Peddapalli Border,18.677258,79.452756,State Highway,Overcast,Potholed,Daylight,60,326,3,Two-Wheeler,Rear-End,Minor,25,0,1,0,1
+1140,2023-11-18,07:27,7,Saturday,11,2023,Kataram Village Road,18.645896,79.402338,Village Road,Clear,Under Construction,Dark – Street Light,30,159,3,Two-Wheeler,Rear-End,Serious,42,1,1,1,0
+1141,2023-02-05,08:05,8,Sunday,2,2023,Karimnagar Highway Fork Peddapalli,18.609277,79.352755,Highway,Clear,Good,Dawn/Dusk,80,464,3,Tractor,Rear-End,Minor,39,1,1,1,0
+1142,2021-03-20,09:53,9,Saturday,3,2021,Manthani Bridge Approach,18.656227,79.666943,District Road,Clear,Under Construction,Dark – Street Light,50,227,2,Bus,Head-On,Minor,37,1,1,1,0
+1143,2022-06-09,07:09,7,Thursday,6,2022,NH-163 Near Peddapalli Toll Plaza,18.61763,79.387392,Highway,Rainy,Wet,Dark – No Street Light,80,222,2,Auto-Rickshaw,Head-On,Fatal,83,1,0,1,0
+1144,2022-05-04,11:50,11,Wednesday,5,2022,NH-163 Near Peddapalli Toll Plaza,18.608284,79.371904,Highway,Rainy,Good,Dark – Street Light,80,159,2,Bus,Head-On,Serious,51,1,0,0,0
+1145,2022-05-11,17:18,17,Wednesday,5,2022,Korutla Junction Near Peddapalli,18.531588,79.333512,State Highway,Clear,Potholed,Daylight,60,278,2,Tractor,Side-Swipe,Minor,36,1,0,1,0
+1146,2021-05-19,21:34,21,Wednesday,5,2021,Jammikunta–Peddapalli Road,18.569343,79.303499,State Highway,Rainy,Gravelled,Dark – No Street Light,60,305,2,Truck/Lorry,Head-On,Fatal,72,1,0,0,1
+1147,2022-06-04,17:22,17,Saturday,6,2022,Jammikunta–Peddapalli Road,18.560922,79.31232,State Highway,Foggy,Good,Dark – Street Light,60,163,2,Bus,Side-Swipe,Minor,30,1,1,1,0
+1148,2021-04-01,10:21,10,Thursday,4,2021,Manthani Bridge Approach,18.642663,79.659654,District Road,Overcast,Good,Dark – Street Light,50,147,2,Tractor,Rear-End,Minor,0,1,0,0,0
+1149,2023-07-27,03:12,3,Thursday,7,2023,Ramagundam Bypass Junction,18.758148,79.502033,Bypass,Clear,Good,Daylight,70,195,4,Bus,Rear-End,Serious,42,1,0,0,1
+1150,2022-06-03,03:41,3,Friday,6,2022,Dharmaram Crossroad,18.672431,79.359704,Village Road,Clear,Good,Dark – Street Light,30,74,3,Auto-Rickshaw,Rear-End,Minor,26,0,0,0,1
+1151,2023-06-20,19:24,19,Tuesday,6,2023,Ramagundam NTPC Gate Road,18.782776,79.488071,Industrial Road,Clear,Good,Dark – No Street Light,40,144,2,Bus,Rear-End,Minor,17,1,0,1,0
+1152,2023-06-01,15:52,15,Thursday,6,2023,Ramagundam Bypass Junction,18.752149,79.496236,Bypass,Clear,Good,Daylight,70,340,2,Auto-Rickshaw,Rear-End,Minor,19,1,0,0,0
+1153,2023-06-29,10:02,10,Thursday,6,2023,Manthani Bridge Approach,18.647824,79.657332,District Road,Foggy,Under Construction,Dark – No Street Light,50,141,2,Tractor,Pedestrian,Serious,46,1,0,0,0
+1154,2023-04-12,10:51,10,Wednesday,4,2023,Ramagundam Bypass Junction,18.764624,79.500376,Bypass,Foggy,Good,Daylight,70,204,3,Tractor,Rollover,Serious,46,1,0,0,0
+1155,2021-05-18,08:41,8,Tuesday,5,2021,Manthani Bridge Approach,18.65407,79.659538,District Road,Clear,Good,Dark – No Street Light,50,94,2,Tractor,Rear-End,Minor,26,0,0,1,0
+1156,2021-06-07,14:33,14,Monday,6,2021,Srirampur Road Stretch,18.723071,79.538788,District Road,Clear,Good,Daylight,50,132,4,Two-Wheeler,Side-Swipe,Minor,15,0,0,0,0
+1157,2021-08-30,08:16,8,Monday,8,2021,Kataram Village Road,18.637121,79.400625,Village Road,Foggy,Good,Dark – No Street Light,30,107,3,Truck/Lorry,Head-On,Serious,64,1,0,1,0
+1158,2021-06-01,12:57,12,Tuesday,6,2021,Mancherial Road – Peddapalli Border,18.673424,79.451834,State Highway,Foggy,Gravelled,Dark – Street Light,60,115,4,Auto-Rickshaw,Side-Swipe,Serious,42,1,0,0,0
+1159,2022-08-18,19:54,19,Thursday,8,2022,Karimnagar Highway Fork Peddapalli,18.599255,79.356883,Highway,Clear,Wet,Dark – Street Light,80,431,2,Auto-Rickshaw,Rear-End,Minor,33,1,0,1,0
+1160,2021-10-12,08:31,8,Tuesday,10,2021,Sulthanabad Cross Roads,18.607394,79.426598,Highway,Clear,Potholed,Daylight,80,324,3,Bus,Head-On,Serious,57,1,0,1,0
+1161,2022-09-26,11:45,11,Monday,9,2022,Ramagundam Bypass Junction,18.750022,79.492168,Bypass,Foggy,Potholed,Dark – Street Light,70,289,3,Two-Wheeler,Head-On,Fatal,75,1,0,0,0
+1162,2021-06-01,12:43,12,Tuesday,6,2021,Peddapalli Town Circle,18.612218,79.371889,Urban Road,Rainy,Good,Dark – Street Light,40,166,2,Bus,Head-On,Minor,29,0,0,0,0
+1163,2021-04-24,18:33,18,Saturday,4,2021,Kataram Village Road,18.634592,79.410436,Village Road,Clear,Good,Daylight,30,98,3,Auto-Rickshaw,Pedestrian,Minor,26,1,1,1,0
+1164,2021-06-11,08:40,8,Friday,6,2021,Mancherial Road – Peddapalli Border,18.68096,79.4524,State Highway,Night Drizzle,Good,Dark – No Street Light,60,370,2,Two-Wheeler,Rear-End,Serious,40,1,0,1,0
+1165,2021-11-12,07:39,7,Friday,11,2021,Korutla Junction Near Peddapalli,18.523694,79.333616,State Highway,Foggy,Potholed,Dark – Street Light,60,306,2,Two-Wheeler,Head-On,Fatal,75,1,0,1,0
+1166,2022-06-27,16:49,16,Monday,6,2022,Srirampur Road Stretch,18.714814,79.534048,District Road,Rainy,Potholed,Daylight,50,193,3,Bus,Rear-End,Serious,49,1,0,0,0
+1167,2022-05-17,18:43,18,Tuesday,5,2022,Dharmaram Crossroad,18.668086,79.369631,Village Road,Clear,Potholed,Dark – No Street Light,30,79,2,Truck/Lorry,Rear-End,Serious,41,1,0,1,0
+1168,2021-10-22,09:45,9,Friday,10,2021,Jammikunta–Peddapalli Road,18.554207,79.313215,State Highway,Clear,Gravelled,Daylight,60,452,2,Auto-Rickshaw,Rear-End,Minor,23,0,0,1,0
+1169,2021-09-08,08:15,8,Wednesday,9,2021,Dharmaram Crossroad,18.672564,79.362038,Village Road,Clear,Good,Dawn/Dusk,30,97,3,Truck/Lorry,Head-On,Serious,45,1,0,1,0
+1170,2022-11-02,20:46,20,Wednesday,11,2022,Mancherial Road – Peddapalli Border,18.681243,79.440845,State Highway,Clear,Wet,Dark – No Street Light,60,230,2,Truck/Lorry,Hit-and-Run,Serious,40,1,0,0,1
+1171,2021-07-04,21:32,21,Sunday,7,2021,NH-163 Near Peddapalli Toll Plaza,18.613949,79.380905,Highway,Clear,Good,Dark – No Street Light,80,321,1,Auto-Rickshaw,Rear-End,Minor,35,1,1,0,1
+1172,2023-08-22,09:00,9,Tuesday,8,2023,Peddapalli Town Circle,18.613116,79.382777,Urban Road,Overcast,Potholed,Dark – Street Light,40,77,3,Truck/Lorry,Rear-End,Serious,42,1,0,1,0
+1173,2022-02-03,10:18,10,Thursday,2,2022,NH-163 Near Peddapalli Toll Plaza,18.609312,79.382597,Highway,Clear,Potholed,Dark – Street Light,80,340,2,Bus,Side-Swipe,Minor,23,0,0,0,0
+1174,2023-03-18,10:21,10,Saturday,3,2023,Ramagundam Bypass Junction,18.746453,79.502917,Bypass,Rainy,Good,Daylight,70,360,2,Truck/Lorry,Rear-End,Minor,21,0,1,0,0
+1175,2022-11-14,18:33,18,Monday,11,2022,Ramagundam Old Town Road,18.764853,79.483184,Urban Road,Clear,Potholed,Dark – No Street Light,40,96,2,Bus,Rear-End,Serious,47,1,0,1,0
+1176,2022-09-05,14:32,14,Monday,9,2022,Korutla Junction Near Peddapalli,18.519862,79.32624,State Highway,Overcast,Potholed,Dark – Street Light,60,155,2,Two-Wheeler,Rear-End,Minor,13,1,0,0,0
+1177,2022-09-23,18:46,18,Friday,9,2022,Korutla Junction Near Peddapalli,18.523478,79.329193,State Highway,Overcast,Potholed,Dark – No Street Light,60,320,2,Tractor,Rollover,Serious,68,1,0,1,0
+1178,2022-04-12,17:37,17,Tuesday,4,2022,Korutla Junction Near Peddapalli,18.52767,79.319945,State Highway,Clear,Potholed,Dark – Street Light,60,167,3,Truck/Lorry,Head-On,Serious,52,1,0,1,0
+1179,2021-08-14,07:28,7,Saturday,8,2021,NH-163 Near Peddapalli Toll Plaza,18.614437,79.377798,Highway,Clear,Good,Dark – No Street Light,80,247,2,Bus,Hit-and-Run,Minor,26,1,1,1,0
+1180,2022-03-01,14:42,14,Tuesday,3,2022,Karimnagar Highway Fork Peddapalli,18.605531,79.351116,Highway,Clear,Good,Dawn/Dusk,80,269,2,Bus,Rear-End,Minor,26,0,0,0,0
+1181,2022-06-26,15:12,15,Sunday,6,2022,Mancherial Road – Peddapalli Border,18.675351,79.447649,State Highway,Night Drizzle,Good,Daylight,60,366,4,Auto-Rickshaw,Rollover,Serious,41,1,1,0,0
+1182,2023-09-29,09:22,9,Friday,9,2023,Ramagundam Old Town Road,18.749642,79.483016,Urban Road,Rainy,Gravelled,Dark – Street Light,40,265,2,Bus,Side-Swipe,Serious,52,1,0,1,0
+1183,2023-03-20,18:49,18,Monday,3,2023,Kataram Village Road,18.638985,79.403856,Village Road,Overcast,Good,Daylight,30,196,3,Auto-Rickshaw,Hit-and-Run,Minor,30,1,0,1,0
+1184,2023-09-09,07:52,7,Saturday,9,2023,Godavari Bridge NH-163,18.702533,79.517222,Bridge Road,Rainy,Gravelled,Dark – No Street Light,60,101,2,Bus,Side-Swipe,Serious,62,1,1,1,0
+1185,2021-04-14,16:33,16,Wednesday,4,2021,Sulthanabad Cross Roads,18.593272,79.422688,Highway,Clear,Good,Daylight,80,393,2,Truck/Lorry,Head-On,Minor,19,0,0,0,0
+1186,2021-11-20,11:59,11,Saturday,11,2021,Karimnagar Highway Fork Peddapalli,18.598062,79.351837,Highway,Overcast,Potholed,Dark – No Street Light,80,267,3,Auto-Rickshaw,Rear-End,Serious,65,1,1,0,0
+1187,2021-07-03,16:14,16,Saturday,7,2021,NH-163 Near Peddapalli Toll Plaza,18.612095,79.383549,Highway,Rainy,Wet,Dawn/Dusk,80,331,4,Car/Jeep,Rear-End,Fatal,70,1,1,0,0
+1188,2021-03-16,23:25,23,Tuesday,3,2021,Kataram Village Road,18.644356,79.40037,Village Road,Foggy,Good,Dark – Street Light,30,316,3,Auto-Rickshaw,Hit-and-Run,Minor,35,1,0,0,1
+1189,2021-08-08,20:21,20,Sunday,8,2021,Godavari Bridge NH-163,18.70006,79.507809,Bridge Road,Clear,Gravelled,Dark – No Street Light,60,246,2,Car/Jeep,Hit-and-Run,Minor,39,1,1,0,1
+1190,2022-01-30,18:21,18,Sunday,1,2022,Godavari Bridge NH-163,18.692746,79.516242,Bridge Road,Clear,Potholed,Daylight,60,69,2,Tractor,Rear-End,Minor,29,0,1,1,0
+1191,2022-01-31,07:54,7,Monday,1,2022,Srirampur Road Stretch,18.728382,79.536635,District Road,Rainy,Potholed,Daylight,50,151,2,Truck/Lorry,Side-Swipe,Serious,45,1,0,1,0
+1192,2023-09-05,09:15,9,Tuesday,9,2023,Manthani Bridge Approach,18.657147,79.649044,District Road,Clear,Good,Daylight,50,132,2,Auto-Rickshaw,Rear-End,Minor,18,0,0,1,0
+1193,2023-01-07,16:03,16,Saturday,1,2023,Peddapalli Town Circle,18.619854,79.371607,Urban Road,Rainy,Potholed,Daylight,40,168,3,Tractor,Rollover,Serious,58,1,1,0,0
+1194,2022-08-28,10:14,10,Sunday,8,2022,Peddapalli Town Circle,18.617692,79.376924,Urban Road,Clear,Good,Daylight,40,241,3,Bus,Rear-End,Minor,17,1,1,0,0
+1195,2022-03-24,17:43,17,Thursday,3,2022,Srirampur Road Stretch,18.731353,79.535909,District Road,Foggy,Under Construction,Daylight,50,200,2,Tractor,Rear-End,Serious,58,1,0,1,0
+1196,2021-05-07,18:57,18,Friday,5,2021,Ramagundam Bypass Junction,18.752503,79.495951,Bypass,Rainy,Potholed,Daylight,70,319,2,Bus,Rear-End,Serious,56,1,0,1,0
+1197,2023-09-29,05:32,5,Friday,9,2023,Ramagundam Old Town Road,18.75772,79.487358,Urban Road,Clear,Good,Daylight,40,216,2,Bus,Head-On,Minor,19,0,0,0,1
+1198,2021-02-14,11:52,11,Sunday,2,2021,Godavari Bridge NH-163,18.704495,79.519668,Bridge Road,Clear,Good,Daylight,60,111,2,Tractor,Head-On,Minor,6,1,1,0,0
+1199,2023-08-25,03:26,3,Friday,8,2023,Ramagundam Bypass Junction,18.75225,79.498851,Bypass,Clear,Good,Dark – No Street Light,70,383,3,Truck/Lorry,Rear-End,Serious,52,1,0,0,1
+1200,2023-02-13,10:43,10,Monday,2,2023,Dharmaram Crossroad,18.672779,79.366887,Village Road,Night Drizzle,Under Construction,Daylight,30,71,3,Two-Wheeler,Head-On,Fatal,72,1,0,0,0
+1201,2023-12-20,06:14,6,Wednesday,12,2023,Ramagundam NTPC Gate Road,18.773389,79.497348,Industrial Road,Overcast,Wet,Dawn/Dusk,40,210,2,Tractor,Rear-End,Serious,42,1,0,0,0
+1202,2022-04-16,08:22,8,Saturday,4,2022,Ramagundam NTPC Gate Road,18.780067,79.502384,Industrial Road,Clear,Good,Dark – Street Light,40,258,3,Two-Wheeler,Rollover,Minor,38,1,1,1,0
+1203,2021-02-02,08:04,8,Tuesday,2,2021,Korutla Junction Near Peddapalli,18.521777,79.317106,State Highway,Clear,Good,Dark – No Street Light,60,238,3,Two-Wheeler,Head-On,Serious,41,1,0,1,0
+1204,2023-06-18,08:13,8,Sunday,6,2023,Ramagundam NTPC Gate Road,18.781272,79.492722,Industrial Road,Foggy,Wet,Daylight,40,269,4,Car/Jeep,Rollover,Fatal,83,1,1,1,0
+1205,2022-10-19,08:56,8,Wednesday,10,2022,Jammikunta–Peddapalli Road,18.555573,79.322629,State Highway,Clear,Wet,Daylight,60,322,2,Two-Wheeler,Side-Swipe,Minor,38,1,0,1,0
+1206,2021-12-25,15:27,15,Saturday,12,2021,Kataram Village Road,18.640547,79.405629,Village Road,Rainy,Good,Daylight,30,160,2,Truck/Lorry,Rollover,Minor,35,1,1,0,0
+1207,2023-05-03,11:19,11,Wednesday,5,2023,Ramagundam Old Town Road,18.763119,79.483048,Urban Road,Clear,Wet,Dark – No Street Light,40,188,3,Auto-Rickshaw,Hit-and-Run,Minor,39,1,0,0,0
+1208,2023-08-07,20:35,20,Monday,8,2023,Srirampur Road Stretch,18.72941,79.541727,District Road,Clear,Potholed,Dark – No Street Light,50,187,2,Auto-Rickshaw,Head-On,Serious,60,1,0,0,1
+1209,2023-07-11,19:05,19,Tuesday,7,2023,Ramagundam Bypass Junction,18.752244,79.495252,Bypass,Rainy,Under Construction,Daylight,70,427,2,Bus,Side-Swipe,Serious,52,1,0,1,0
+1210,2022-03-21,12:55,12,Monday,3,2022,Sulthanabad Cross Roads,18.592279,79.426471,Highway,Overcast,Good,Dawn/Dusk,80,289,2,Car/Jeep,Pedestrian,Minor,18,1,0,0,0
+1211,2023-09-08,20:44,20,Friday,9,2023,Srirampur Road Stretch,18.727648,79.53421,District Road,Rainy,Good,Dawn/Dusk,50,20,2,Auto-Rickshaw,Rear-End,Serious,42,1,0,0,1
+1212,2023-01-06,09:23,9,Friday,1,2023,Peddapalli Town Circle,18.610939,79.370726,Urban Road,Rainy,Potholed,Daylight,40,115,4,Truck/Lorry,Rollover,Fatal,75,1,0,1,0
+1213,2022-02-21,10:26,10,Monday,2,2022,Kataram Village Road,18.640367,79.39555,Village Road,Clear,Under Construction,Dark – Street Light,30,215,1,Bus,Pedestrian,Minor,28,1,0,0,0
+1214,2021-11-09,07:14,7,Tuesday,11,2021,Godavari Bridge NH-163,18.700421,79.526345,Bridge Road,Clear,Under Construction,Dark – No Street Light,60,46,3,Tractor,Rear-End,Serious,60,1,0,1,0
+1215,2023-10-02,12:46,12,Monday,10,2023,Ramagundam Old Town Road,18.754484,79.485771,Urban Road,Foggy,Good,Dark – Street Light,40,129,2,Bus,Pedestrian,Minor,11,0,0,0,0
+1216,2021-06-02,21:42,21,Wednesday,6,2021,Mancherial Road – Peddapalli Border,18.667516,79.444729,State Highway,Clear,Good,Daylight,60,278,2,Two-Wheeler,Side-Swipe,Minor,0,0,0,0,1
+1217,2023-02-04,04:40,4,Saturday,2,2023,Dharmaram Crossroad,18.678481,79.374245,Village Road,Rainy,Potholed,Dark – No Street Light,30,131,2,Two-Wheeler,Rear-End,Serious,58,1,1,0,1
+1218,2021-02-04,13:17,13,Thursday,2,2021,NH-163 Near Peddapalli Toll Plaza,18.612856,79.376567,Highway,Rainy,Good,Dark – No Street Light,80,390,3,Truck/Lorry,Rollover,Serious,65,1,0,0,0
+1219,2021-07-17,13:15,13,Saturday,7,2021,Ramagundam Bypass Junction,18.755096,79.50027,Bypass,Clear,Potholed,Dark – Street Light,70,505,2,Truck/Lorry,Head-On,Serious,47,1,1,0,0
+1220,2022-05-14,23:14,23,Saturday,5,2022,Dharmaram Crossroad,18.67599,79.364278,Village Road,Clear,Under Construction,Daylight,30,148,4,Tractor,Rollover,Serious,52,1,1,0,1
+1221,2023-02-16,10:30,10,Thursday,2,2023,Ramagundam NTPC Gate Road,18.775266,79.492836,Industrial Road,Clear,Good,Daylight,40,104,2,Truck/Lorry,Side-Swipe,Minor,0,0,0,0,0
+1222,2021-07-15,19:58,19,Thursday,7,2021,Mancherial Road – Peddapalli Border,18.677436,79.445532,State Highway,Clear,Good,Dark – Street Light,60,256,3,Truck/Lorry,Rear-End,Minor,12,0,0,1,0
+1223,2021-03-09,07:54,7,Tuesday,3,2021,Godavari Bridge NH-163,18.70962,79.504745,Bridge Road,Clear,Gravelled,Dark – No Street Light,60,129,3,Tractor,Rollover,Serious,62,1,0,1,0
+1224,2021-11-29,14:36,14,Monday,11,2021,Godavari Bridge NH-163,18.70833,79.507633,Bridge Road,Overcast,Good,Dark – Street Light,60,237,2,Tractor,Head-On,Minor,7,0,0,0,0
+1225,2021-04-20,06:14,6,Tuesday,4,2021,Jammikunta–Peddapalli Road,18.559343,79.303362,State Highway,Overcast,Good,Dark – Street Light,60,272,4,Truck/Lorry,Pedestrian,Minor,10,0,0,0,0
+1226,2023-07-12,13:22,13,Wednesday,7,2023,Godavari Bridge NH-163,18.696547,79.526761,Bridge Road,Rainy,Good,Daylight,60,87,2,Truck/Lorry,Head-On,Serious,44,1,0,0,0
+1227,2022-05-20,17:05,17,Friday,5,2022,Godavari Bridge NH-163,18.708458,79.521608,Bridge Road,Clear,Good,Dark – Street Light,60,224,2,Truck/Lorry,Rear-End,Minor,3,0,0,1,0
+1228,2023-06-30,10:17,10,Friday,6,2023,Godavari Bridge NH-163,18.699477,79.520447,Bridge Road,Clear,Good,Daylight,60,59,2,Bus,Rear-End,Minor,0,0,0,0,0
+1229,2021-07-10,15:50,15,Saturday,7,2021,Karimnagar Highway Fork Peddapalli,18.604065,79.352798,Highway,Clear,Good,Daylight,80,202,2,Two-Wheeler,Side-Swipe,Minor,17,1,1,0,0
+1230,2023-12-04,07:24,7,Monday,12,2023,Sulthanabad Cross Roads,18.595555,79.423221,Highway,Clear,Good,Daylight,80,270,2,Car/Jeep,Rear-End,Minor,23,0,0,1,0
+1231,2021-06-07,10:15,10,Monday,6,2021,Srirampur Road Stretch,18.725797,79.529595,District Road,Foggy,Potholed,Dark – No Street Light,50,121,2,Car/Jeep,Rear-End,Serious,57,1,0,0,0
+1232,2023-02-18,18:21,18,Saturday,2,2023,Jammikunta–Peddapalli Road,18.564166,79.308852,State Highway,Clear,Potholed,Dark – Street Light,60,349,3,Bus,Head-On,Serious,55,1,1,1,0
+1233,2022-02-16,12:11,12,Wednesday,2,2022,Korutla Junction Near Peddapalli,18.521744,79.33062,State Highway,Night Drizzle,Gravelled,Daylight,60,326,3,Truck/Lorry,Pedestrian,Serious,47,1,0,0,0
+1234,2023-02-10,08:50,8,Friday,2,2023,Jammikunta–Peddapalli Road,18.558586,79.315645,State Highway,Clear,Good,Dark – No Street Light,60,285,2,Bus,Head-On,Serious,47,1,0,1,0
+1235,2023-08-04,21:13,21,Friday,8,2023,NH-163 Near Peddapalli Toll Plaza,18.607158,79.374317,Highway,Clear,Good,Dark – No Street Light,80,243,3,Truck/Lorry,Side-Swipe,Minor,29,0,0,0,1
+1236,2022-06-02,16:45,16,Thursday,6,2022,Sulthanabad Cross Roads,18.585598,79.429774,Highway,Clear,Good,Daylight,80,348,2,Bus,Rear-End,Minor,16,1,0,0,0
+1237,2023-05-07,14:50,14,Sunday,5,2023,Mancherial Road – Peddapalli Border,18.689482,79.446055,State Highway,Night Drizzle,Wet,Dark – Street Light,60,133,2,Two-Wheeler,Head-On,Serious,52,1,1,0,0
+1238,2022-12-29,07:39,7,Thursday,12,2022,Peddapalli Town Circle,18.613275,79.380996,Urban Road,Clear,Gravelled,Dark – No Street Light,40,142,2,Auto-Rickshaw,Pedestrian,Serious,48,1,0,1,0
+1239,2021-01-22,06:14,6,Friday,1,2021,Ramagundam Bypass Junction,18.760317,79.500771,Bypass,Rainy,Potholed,Dark – No Street Light,70,296,2,Truck/Lorry,Rear-End,Serious,69,1,0,0,0
+1240,2023-10-22,07:01,7,Sunday,10,2023,Srirampur Road Stretch,18.718182,79.534715,District Road,Clear,Good,Dawn/Dusk,50,162,1,Tractor,Head-On,Minor,39,1,1,1,0
+1241,2023-07-22,18:33,18,Saturday,7,2023,Jammikunta–Peddapalli Road,18.552649,79.303659,State Highway,Clear,Potholed,Daylight,60,324,3,Auto-Rickshaw,Head-On,Serious,46,1,1,1,0
+1242,2021-08-24,02:21,2,Tuesday,8,2021,Srirampur Road Stretch,18.720854,79.53408,District Road,Rainy,Wet,Daylight,50,209,4,Car/Jeep,Rear-End,Fatal,72,1,0,0,1
+1243,2022-11-09,14:29,14,Wednesday,11,2022,Manthani Bridge Approach,18.654738,79.657401,District Road,Clear,Potholed,Daylight,50,151,2,Truck/Lorry,Rear-End,Minor,29,1,0,0,0
+1244,2023-05-30,11:45,11,Tuesday,5,2023,Dharmaram Crossroad,18.675979,79.360108,Village Road,Clear,Good,Dark – Street Light,30,87,3,Bus,Head-On,Minor,32,1,0,0,0
+1245,2023-01-20,09:29,9,Friday,1,2023,Manthani Bridge Approach,18.644487,79.665246,District Road,Clear,Wet,Dark – No Street Light,50,182,4,Auto-Rickshaw,Side-Swipe,Serious,64,1,0,1,0
+1246,2021-08-22,10:54,10,Sunday,8,2021,Ramagundam NTPC Gate Road,18.77928,79.497913,Industrial Road,Clear,Good,Dark – No Street Light,40,187,3,Bus,Side-Swipe,Minor,19,0,1,0,0
+1247,2022-09-18,06:23,6,Sunday,9,2022,Sulthanabad Cross Roads,18.597072,79.411796,Highway,Rainy,Potholed,Daylight,80,433,2,Truck/Lorry,Rear-End,Serious,55,1,1,0,0
+1248,2021-12-21,14:31,14,Tuesday,12,2021,Peddapalli Town Circle,18.612876,79.37913,Urban Road,Clear,Good,Dark – Street Light,40,47,2,Auto-Rickshaw,Pedestrian,Minor,5,0,0,0,0
+1249,2023-02-26,21:32,21,Sunday,2,2023,Mancherial Road – Peddapalli Border,18.677371,79.445934,State Highway,Rainy,Potholed,Dark – No Street Light,60,341,3,Truck/Lorry,Rear-End,Serious,57,1,1,0,1
+1250,2021-03-05,18:14,18,Friday,3,2021,Korutla Junction Near Peddapalli,18.524942,79.318967,State Highway,Clear,Good,Dark – No Street Light,60,239,2,Truck/Lorry,Side-Swipe,Minor,30,1,0,1,0
+1251,2023-11-13,06:07,6,Monday,11,2023,Karimnagar Highway Fork Peddapalli,18.593742,79.349121,Highway,Clear,Potholed,Dawn/Dusk,80,226,2,Two-Wheeler,Rollover,Serious,64,1,0,0,0
+1252,2022-03-24,23:06,23,Thursday,3,2022,Karimnagar Highway Fork Peddapalli,18.595753,79.367162,Highway,Foggy,Wet,Daylight,80,384,3,Two-Wheeler,Rear-End,Fatal,76,1,0,0,1
+1253,2021-06-28,12:07,12,Monday,6,2021,Mancherial Road – Peddapalli Border,18.681924,79.440708,State Highway,Foggy,Good,Dark – Street Light,60,339,2,Auto-Rickshaw,Hit-and-Run,Minor,29,0,0,0,0
+1254,2021-10-13,18:52,18,Wednesday,10,2021,Manthani Bridge Approach,18.650122,79.66071,District Road,Clear,Good,Daylight,50,206,2,Bus,Head-On,Minor,24,0,0,1,0
+1255,2023-11-20,22:43,22,Monday,11,2023,Godavari Bridge NH-163,18.70162,79.523746,Bridge Road,Overcast,Good,Dark – Street Light,60,354,2,Two-Wheeler,Pedestrian,Minor,25,0,0,0,1
+1256,2021-09-29,08:45,8,Wednesday,9,2021,Mancherial Road – Peddapalli Border,18.680825,79.453854,State Highway,Clear,Good,Dark – Street Light,60,243,2,Car/Jeep,Side-Swipe,Minor,8,0,0,1,0
+1257,2023-07-15,05:50,5,Saturday,7,2023,Ramagundam NTPC Gate Road,18.787062,79.496539,Industrial Road,Overcast,Good,Dark – No Street Light,40,99,2,Auto-Rickshaw,Rear-End,Minor,20,0,1,0,1
+1258,2021-07-10,17:29,17,Saturday,7,2021,NH-163 Near Peddapalli Toll Plaza,18.617362,79.386963,Highway,Rainy,Wet,Dark – Street Light,80,255,3,Truck/Lorry,Head-On,Fatal,88,1,1,1,0
+1259,2022-03-10,13:20,13,Thursday,3,2022,Mancherial Road – Peddapalli Border,18.673149,79.441364,State Highway,Overcast,Good,Dark – No Street Light,60,349,2,Truck/Lorry,Rollover,Minor,21,0,0,0,0
+1260,2023-07-31,01:59,1,Monday,7,2023,Peddapalli Town Circle,18.615628,79.382103,Urban Road,Overcast,Potholed,Daylight,40,130,4,Car/Jeep,Pedestrian,Minor,39,1,0,0,1
+1261,2022-09-11,07:59,7,Sunday,9,2022,Kataram Village Road,18.633323,79.403901,Village Road,Overcast,Good,Daylight,30,164,1,Tractor,Hit-and-Run,Minor,5,0,1,1,0
+1262,2022-09-18,17:48,17,Sunday,9,2022,Peddapalli Town Circle,18.618799,79.384404,Urban Road,Clear,Wet,Dark – Street Light,40,198,1,Truck/Lorry,Head-On,Serious,53,1,1,1,0
+1263,2023-11-30,16:00,16,Thursday,11,2023,Sulthanabad Cross Roads,18.594296,79.420649,Highway,Clear,Good,Daylight,80,366,3,Tractor,Head-On,Minor,27,0,0,0,0
+1264,2021-07-29,06:23,6,Thursday,7,2021,Ramagundam Bypass Junction,18.756948,79.501238,Bypass,Overcast,Good,Dark – Street Light,70,167,3,Car/Jeep,Side-Swipe,Minor,14,0,0,0,0
+1265,2021-01-18,15:10,15,Monday,1,2021,Korutla Junction Near Peddapalli,18.521616,79.320595,State Highway,Clear,Wet,Dark – No Street Light,60,321,2,Truck/Lorry,Side-Swipe,Minor,39,1,0,0,0
+1266,2022-03-21,05:06,5,Monday,3,2022,Mancherial Road – Peddapalli Border,18.680802,79.448408,State Highway,Clear,Good,Dark – Street Light,60,384,2,Truck/Lorry,Rear-End,Minor,0,0,0,0,1
+1267,2021-06-22,08:38,8,Tuesday,6,2021,Peddapalli Town Circle,18.616149,79.383691,Urban Road,Rainy,Potholed,Dark – Street Light,40,152,3,Tractor,Hit-and-Run,Serious,56,1,0,1,0
+1268,2023-11-10,07:25,7,Friday,11,2023,Karimnagar Highway Fork Peddapalli,18.600981,79.351689,Highway,Clear,Good,Dark – Street Light,80,258,4,Truck/Lorry,Rear-End,Minor,27,0,0,1,0
+1269,2021-05-26,13:00,13,Wednesday,5,2021,Korutla Junction Near Peddapalli,18.526454,79.327111,State Highway,Night Drizzle,Gravelled,Daylight,60,265,3,Bus,Rear-End,Serious,57,1,0,0,0
+1270,2021-12-20,17:49,17,Monday,12,2021,Peddapalli Town Circle,18.622279,79.374527,Urban Road,Clear,Potholed,Daylight,40,111,2,Two-Wheeler,Pedestrian,Minor,32,1,0,1,0
+1271,2022-08-10,15:32,15,Wednesday,8,2022,Karimnagar Highway Fork Peddapalli,18.598301,79.361235,Highway,Foggy,Potholed,Daylight,80,285,2,Bus,Side-Swipe,Serious,48,1,0,0,0
+1272,2022-09-27,05:58,5,Tuesday,9,2022,Ramagundam Bypass Junction,18.759959,79.492772,Bypass,Clear,Under Construction,Dark – No Street Light,70,315,2,Tractor,Rollover,Fatal,70,1,0,0,1
+1273,2021-05-16,09:27,9,Sunday,5,2021,Peddapalli Town Circle,18.620448,79.379411,Urban Road,Foggy,Under Construction,Daylight,40,171,1,Truck/Lorry,Head-On,Fatal,74,1,1,1,0
+1274,2021-04-23,09:47,9,Friday,4,2021,Korutla Junction Near Peddapalli,18.525414,79.333047,State Highway,Rainy,Good,Daylight,60,385,2,Two-Wheeler,Head-On,Serious,46,1,0,1,0
+1275,2023-11-26,18:46,18,Sunday,11,2023,Karimnagar Highway Fork Peddapalli,18.598686,79.351772,Highway,Clear,Good,Dark – Street Light,80,483,3,Tractor,Hit-and-Run,Minor,20,0,1,1,0
+1276,2022-07-12,13:16,13,Tuesday,7,2022,Ramagundam NTPC Gate Road,18.785898,79.490386,Industrial Road,Foggy,Potholed,Daylight,40,266,2,Auto-Rickshaw,Head-On,Serious,63,1,0,0,0
+1277,2023-01-24,07:49,7,Tuesday,1,2023,Manthani Bridge Approach,18.651591,79.653378,District Road,Clear,Potholed,Dark – Street Light,50,116,2,Bus,Head-On,Minor,35,1,0,1,0
+1278,2021-04-05,12:24,12,Monday,4,2021,Sulthanabad Cross Roads,18.586979,79.417161,Highway,Night Drizzle,Good,Dawn/Dusk,80,226,1,Tractor,Side-Swipe,Serious,48,1,0,0,0
+1279,2022-10-22,08:58,8,Saturday,10,2022,Sulthanabad Cross Roads,18.593171,79.428753,Highway,Foggy,Good,Daylight,80,297,2,Bus,Side-Swipe,Minor,31,1,1,1,0
+1280,2022-04-03,18:02,18,Sunday,4,2022,Manthani Bridge Approach,18.657922,79.65903,District Road,Night Drizzle,Good,Dark – No Street Light,50,70,2,Auto-Rickshaw,Rear-End,Serious,52,1,1,1,0
+1281,2021-01-17,10:18,10,Sunday,1,2021,Dharmaram Crossroad,18.678374,79.359386,Village Road,Rainy,Good,Dark – No Street Light,30,146,2,Bus,Pedestrian,Minor,31,1,1,0,0
+1282,2022-05-18,07:59,7,Wednesday,5,2022,Ramagundam Old Town Road,18.762832,79.489462,Urban Road,Clear,Good,Daylight,40,180,3,Two-Wheeler,Pedestrian,Minor,10,1,0,1,0
+1283,2022-09-22,06:33,6,Thursday,9,2022,Ramagundam NTPC Gate Road,18.790277,79.489811,Industrial Road,Night Drizzle,Potholed,Dawn/Dusk,40,173,4,Car/Jeep,Side-Swipe,Serious,57,1,0,0,0
+1284,2022-04-20,20:33,20,Wednesday,4,2022,NH-163 Near Peddapalli Toll Plaza,18.611084,79.379323,Highway,Clear,Under Construction,Dark – No Street Light,80,257,3,Bus,Head-On,Serious,64,1,0,0,1
+1285,2023-03-19,05:36,5,Sunday,3,2023,Peddapalli Town Circle,18.621945,79.386103,Urban Road,Clear,Wet,Daylight,40,99,2,Auto-Rickshaw,Hit-and-Run,Minor,22,1,1,0,1
+1286,2022-10-31,09:17,9,Monday,10,2022,Ramagundam Old Town Road,18.757838,79.489357,Urban Road,Clear,Gravelled,Daylight,40,104,3,Two-Wheeler,Head-On,Serious,50,1,0,1,0
+1287,2023-08-13,09:07,9,Sunday,8,2023,Dharmaram Crossroad,18.678165,79.366015,Village Road,Rainy,Gravelled,Daylight,30,105,2,Auto-Rickshaw,Hit-and-Run,Serious,42,1,1,1,0
+1288,2022-09-16,18:44,18,Friday,9,2022,Manthani Bridge Approach,18.660738,79.669079,District Road,Rainy,Good,Dark – Street Light,50,28,2,Tractor,Head-On,Serious,46,1,0,1,0
+1289,2023-11-18,04:19,4,Saturday,11,2023,Ramagundam NTPC Gate Road,18.776061,79.494429,Industrial Road,Clear,Gravelled,Daylight,40,100,2,Truck/Lorry,Side-Swipe,Minor,27,0,1,0,1
+1290,2021-07-28,18:08,18,Wednesday,7,2021,Dharmaram Crossroad,18.678293,79.375051,Village Road,Clear,Good,Dark – Street Light,30,176,2,Car/Jeep,Rollover,Minor,26,0,0,1,0
+1291,2021-06-22,14:16,14,Tuesday,6,2021,Peddapalli Town Circle,18.612009,79.372103,Urban Road,Overcast,Good,Dawn/Dusk,40,135,2,Tractor,Rear-End,Minor,9,0,0,0,0
+1292,2022-11-11,06:29,6,Friday,11,2022,Mancherial Road – Peddapalli Border,18.680834,79.453973,State Highway,Clear,Gravelled,Daylight,60,241,3,Truck/Lorry,Head-On,Serious,48,1,0,0,0
+1293,2022-12-26,07:11,7,Monday,12,2022,Manthani Bridge Approach,18.654119,79.660018,District Road,Clear,Potholed,Daylight,50,108,2,Bus,Head-On,Serious,44,1,0,1,0
+1294,2023-04-24,19:30,19,Monday,4,2023,Dharmaram Crossroad,18.687635,79.362346,Village Road,Clear,Good,Daylight,30,245,2,Bus,Head-On,Minor,32,1,0,1,0
+1295,2021-02-09,22:50,22,Tuesday,2,2021,Srirampur Road Stretch,18.725221,79.538409,District Road,Foggy,Potholed,Dark – Street Light,50,110,2,Bus,Rear-End,Serious,57,1,0,0,1
+1296,2022-01-04,02:38,2,Tuesday,1,2022,Godavari Bridge NH-163,18.70502,79.516204,Bridge Road,Clear,Under Construction,Dark – Street Light,60,297,1,Truck/Lorry,Rear-End,Serious,43,1,0,0,1
+1297,2021-11-23,06:42,6,Tuesday,11,2021,Sulthanabad Cross Roads,18.597544,79.425102,Highway,Clear,Potholed,Dark – Street Light,80,347,3,Car/Jeep,Side-Swipe,Serious,42,1,0,0,0
+1298,2021-12-22,07:37,7,Wednesday,12,2021,Jammikunta–Peddapalli Road,18.566533,79.316246,State Highway,Clear,Wet,Daylight,60,340,2,Tractor,Side-Swipe,Minor,38,1,0,1,0
+1299,2021-10-19,14:12,14,Tuesday,10,2021,Korutla Junction Near Peddapalli,18.531244,79.325164,State Highway,Overcast,Under Construction,Dawn/Dusk,60,410,2,Car/Jeep,Rear-End,Minor,27,0,0,0,0
+1300,2022-03-25,01:30,1,Friday,3,2022,Korutla Junction Near Peddapalli,18.534033,79.321915,State Highway,Clear,Under Construction,Daylight,60,311,2,Tractor,Head-On,Serious,50,1,0,0,1
+1301,2021-02-14,07:45,7,Sunday,2,2021,NH-163 Near Peddapalli Toll Plaza,18.612233,79.382244,Highway,Overcast,Wet,Dark – Street Light,80,329,3,Two-Wheeler,Rear-End,Serious,52,1,1,1,0
+1302,2021-07-26,10:20,10,Monday,7,2021,Korutla Junction Near Peddapalli,18.528955,79.326232,State Highway,Clear,Good,Dawn/Dusk,60,402,3,Truck/Lorry,Side-Swipe,Minor,20,1,0,0,0
+1303,2023-01-01,08:37,8,Sunday,1,2023,Karimnagar Highway Fork Peddapalli,18.604231,79.357227,Highway,Overcast,Good,Dark – Street Light,80,191,2,Car/Jeep,Side-Swipe,Minor,28,0,1,1,0
+1304,2021-03-08,07:20,7,Monday,3,2021,Srirampur Road Stretch,18.718461,79.536096,District Road,Night Drizzle,Gravelled,Daylight,50,323,2,Truck/Lorry,Head-On,Serious,57,1,0,1,0
+1305,2022-12-12,22:10,22,Monday,12,2022,Sulthanabad Cross Roads,18.599887,79.420524,Highway,Rainy,Gravelled,Dark – Street Light,80,319,3,Tractor,Hit-and-Run,Fatal,79,1,0,0,1
+1306,2022-06-28,07:44,7,Tuesday,6,2022,NH-163 Near Peddapalli Toll Plaza,18.617239,79.383033,Highway,Clear,Good,Daylight,80,322,1,Truck/Lorry,Rear-End,Minor,23,1,0,1,0
+1307,2023-04-28,13:24,13,Friday,4,2023,Kataram Village Road,18.64097,79.407368,Village Road,Clear,Good,Dark – Street Light,30,114,3,Bus,Side-Swipe,Minor,7,0,0,0,0
+1308,2021-03-10,09:20,9,Wednesday,3,2021,Ramagundam Bypass Junction,18.755465,79.496699,Bypass,Clear,Good,Daylight,70,217,3,Car/Jeep,Side-Swipe,Minor,37,1,0,1,0
+1309,2021-07-10,10:39,10,Saturday,7,2021,Kataram Village Road,18.632384,79.399205,Village Road,Overcast,Wet,Daylight,30,245,3,Bus,Hit-and-Run,Minor,25,0,1,0,0
+1310,2022-02-25,22:26,22,Friday,2,2022,Jammikunta–Peddapalli Road,18.569028,79.310071,State Highway,Rainy,Wet,Dark – Street Light,60,330,2,Auto-Rickshaw,Rear-End,Serious,48,1,0,0,1
+1311,2023-03-16,14:53,14,Thursday,3,2023,NH-163 Near Peddapalli Toll Plaza,18.623606,79.37486,Highway,Clear,Good,Daylight,80,255,1,Tractor,Side-Swipe,Minor,15,0,0,0,0
+1312,2022-02-28,07:18,7,Monday,2,2022,NH-163 Near Peddapalli Toll Plaza,18.6164,79.37959,Highway,Night Drizzle,Potholed,Daylight,80,124,3,Truck/Lorry,Rear-End,Serious,68,1,0,1,0
+1313,2023-03-05,07:56,7,Sunday,3,2023,Ramagundam Bypass Junction,18.758342,79.501419,Bypass,Clear,Good,Daylight,70,218,2,Auto-Rickshaw,Head-On,Minor,33,1,1,1,0
+1314,2021-05-07,07:44,7,Friday,5,2021,Korutla Junction Near Peddapalli,18.521598,79.330362,State Highway,Rainy,Good,Daylight,60,254,2,Bus,Head-On,Minor,36,1,0,1,0
+1315,2023-03-04,18:26,18,Saturday,3,2023,Mancherial Road – Peddapalli Border,18.680504,79.454233,State Highway,Night Drizzle,Wet,Dawn/Dusk,60,352,2,Car/Jeep,Rear-End,Serious,57,1,1,1,0
+1316,2021-03-13,13:57,13,Saturday,3,2021,Ramagundam NTPC Gate Road,18.770372,79.48954,Industrial Road,Rainy,Potholed,Dawn/Dusk,40,64,2,Truck/Lorry,Head-On,Serious,65,1,1,0,0
+1317,2022-01-30,06:27,6,Sunday,1,2022,Sulthanabad Cross Roads,18.593217,79.419794,Highway,Clear,Wet,Daylight,80,296,3,Car/Jeep,Hit-and-Run,Minor,38,1,1,0,0
+1318,2021-05-18,05:35,5,Tuesday,5,2021,Jammikunta–Peddapalli Road,18.554942,79.317619,State Highway,Clear,Good,Daylight,60,328,2,Two-Wheeler,Rollover,Minor,24,0,0,0,1
+1319,2023-05-10,06:09,6,Wednesday,5,2023,Srirampur Road Stretch,18.725586,79.536714,District Road,Clear,Potholed,Dark – Street Light,50,143,4,Two-Wheeler,Side-Swipe,Minor,23,1,0,0,0
+1320,2022-12-06,19:16,19,Tuesday,12,2022,Mancherial Road – Peddapalli Border,18.683849,79.447239,State Highway,Clear,Potholed,Dark – No Street Light,60,336,1,Auto-Rickshaw,Rear-End,Serious,54,1,0,1,0
+1321,2023-04-03,03:56,3,Monday,4,2023,Korutla Junction Near Peddapalli,18.534646,79.326983,State Highway,Overcast,Wet,Daylight,60,351,2,Auto-Rickshaw,Hit-and-Run,Minor,25,0,0,0,1
+1322,2022-09-13,09:53,9,Tuesday,9,2022,Srirampur Road Stretch,18.719551,79.542201,District Road,Clear,Wet,Daylight,50,206,3,Car/Jeep,Rear-End,Serious,44,1,0,1,0
+1323,2022-10-20,08:26,8,Thursday,10,2022,Srirampur Road Stretch,18.729005,79.534799,District Road,Rainy,Good,Daylight,50,95,4,Truck/Lorry,Side-Swipe,Serious,46,1,0,1,0
+1324,2023-02-05,18:32,18,Sunday,2,2023,Mancherial Road – Peddapalli Border,18.681641,79.441595,State Highway,Foggy,Good,Dark – Street Light,60,185,2,Bus,Hit-and-Run,Minor,20,0,1,1,0
+1325,2022-02-16,18:15,18,Wednesday,2,2022,Kataram Village Road,18.636737,79.399769,Village Road,Clear,Good,Daylight,30,217,2,Auto-Rickshaw,Rollover,Minor,31,1,0,1,0
+1326,2021-09-11,16:15,16,Saturday,9,2021,Ramagundam NTPC Gate Road,18.775738,79.480881,Industrial Road,Clear,Potholed,Daylight,40,20,3,Bus,Side-Swipe,Minor,31,1,1,0,0
+1327,2022-06-14,17:44,17,Tuesday,6,2022,Manthani Bridge Approach,18.656802,79.664029,District Road,Clear,Good,Daylight,50,23,3,Car/Jeep,Hit-and-Run,Minor,30,1,0,1,0
+1328,2022-02-28,08:26,8,Monday,2,2022,Sulthanabad Cross Roads,18.587165,79.420761,Highway,Rainy,Under Construction,Dawn/Dusk,80,334,3,Truck/Lorry,Hit-and-Run,Fatal,95,1,0,1,0
+1329,2021-01-18,08:38,8,Monday,1,2021,Manthani Bridge Approach,18.647208,79.667617,District Road,Overcast,Good,Dawn/Dusk,50,149,2,Truck/Lorry,Hit-and-Run,Minor,26,0,0,1,0
+1330,2023-08-14,09:33,9,Monday,8,2023,Sulthanabad Cross Roads,18.590895,79.421134,Highway,Overcast,Good,Daylight,80,370,2,Tractor,Pedestrian,Minor,21,0,0,1,0
+1331,2022-08-02,09:06,9,Tuesday,8,2022,Korutla Junction Near Peddapalli,18.517791,79.324764,State Highway,Clear,Good,Daylight,60,316,2,Auto-Rickshaw,Rear-End,Minor,20,0,0,1,0
+1332,2023-11-26,17:57,17,Sunday,11,2023,Manthani Bridge Approach,18.647992,79.658694,District Road,Clear,Under Construction,Dark – Street Light,50,95,2,Auto-Rickshaw,Side-Swipe,Minor,20,0,1,1,0
+1333,2022-06-16,20:25,20,Thursday,6,2022,Godavari Bridge NH-163,18.705304,79.515144,Bridge Road,Clear,Good,Dark – Street Light,60,293,2,Car/Jeep,Rear-End,Minor,0,0,0,0,1
+1334,2023-09-02,20:42,20,Saturday,9,2023,Peddapalli Town Circle,18.622997,79.383623,Urban Road,Clear,Good,Daylight,40,195,3,Bus,Head-On,Minor,18,0,1,0,1
+1335,2022-06-14,17:35,17,Tuesday,6,2022,Ramagundam Old Town Road,18.758765,79.490491,Urban Road,Foggy,Good,Dark – No Street Light,40,154,2,Two-Wheeler,Head-On,Serious,57,1,0,1,0
+1336,2022-09-21,11:56,11,Wednesday,9,2022,Ramagundam Old Town Road,18.766476,79.490176,Urban Road,Clear,Good,Daylight,40,181,3,Truck/Lorry,Head-On,Minor,35,1,0,0,0
+1337,2021-05-26,12:12,12,Wednesday,5,2021,Korutla Junction Near Peddapalli,18.525324,79.332587,State Highway,Rainy,Under Construction,Daylight,60,383,2,Two-Wheeler,Hit-and-Run,Minor,34,1,0,0,0
+1338,2022-02-15,10:36,10,Tuesday,2,2022,Manthani Bridge Approach,18.663376,79.656654,District Road,Overcast,Gravelled,Daylight,50,165,3,Car/Jeep,Rollover,Serious,50,1,0,0,0
+1339,2021-12-29,09:03,9,Wednesday,12,2021,Jammikunta–Peddapalli Road,18.56219,79.307143,State Highway,Clear,Good,Dark – Street Light,60,438,2,Car/Jeep,Rear-End,Minor,2,0,0,1,0
+1340,2023-05-30,11:30,11,Tuesday,5,2023,Ramagundam NTPC Gate Road,18.776398,79.495121,Industrial Road,Clear,Good,Daylight,40,111,2,Two-Wheeler,Hit-and-Run,Minor,6,0,0,0,0
+1341,2021-01-09,15:15,15,Saturday,1,2021,Peddapalli Town Circle,18.613131,79.378878,Urban Road,Clear,Under Construction,Daylight,40,191,2,Bus,Side-Swipe,Minor,15,0,1,0,0
+1342,2022-09-03,21:29,21,Saturday,9,2022,NH-163 Near Peddapalli Toll Plaza,18.622838,79.384282,Highway,Foggy,Potholed,Daylight,80,471,3,Car/Jeep,Rear-End,Serious,65,1,1,0,1
+1343,2022-01-21,07:58,7,Friday,1,2022,Jammikunta–Peddapalli Road,18.5618,79.313468,State Highway,Overcast,Potholed,Daylight,60,303,3,Car/Jeep,Head-On,Serious,45,1,0,1,0
+1344,2023-10-31,07:23,7,Tuesday,10,2023,Korutla Junction Near Peddapalli,18.526713,79.317657,State Highway,Foggy,Wet,Daylight,60,218,2,Bus,Side-Swipe,Serious,59,1,0,1,0
+1345,2021-08-10,16:01,16,Tuesday,8,2021,NH-163 Near Peddapalli Toll Plaza,18.617436,79.379684,Highway,Clear,Good,Daylight,80,331,2,Auto-Rickshaw,Rear-End,Minor,4,0,0,0,0
+1346,2021-01-20,09:42,9,Wednesday,1,2021,Peddapalli Town Circle,18.609871,79.371678,Urban Road,Clear,Potholed,Dark – No Street Light,40,275,3,Truck/Lorry,Hit-and-Run,Serious,48,1,0,1,0
+1347,2021-08-30,09:50,9,Monday,8,2021,Karimnagar Highway Fork Peddapalli,18.605735,79.36242,Highway,Clear,Good,Daylight,80,317,2,Bus,Pedestrian,Minor,21,1,0,1,0
+1348,2021-11-25,03:31,3,Thursday,11,2021,Godavari Bridge NH-163,18.707493,79.517807,Bridge Road,Overcast,Wet,Dark – No Street Light,60,113,2,Two-Wheeler,Side-Swipe,Serious,43,1,0,0,1
+1349,2023-10-09,07:05,7,Monday,10,2023,Mancherial Road – Peddapalli Border,18.685418,79.448262,State Highway,Foggy,Good,Dark – Street Light,60,286,4,Tractor,Head-On,Serious,54,1,0,1,0
+1350,2023-08-09,04:52,4,Wednesday,8,2023,Godavari Bridge NH-163,18.709483,79.5249,Bridge Road,Clear,Good,Daylight,60,23,3,Auto-Rickshaw,Rear-End,Minor,3,0,0,0,1
+1351,2021-04-04,00:08,0,Sunday,4,2021,Srirampur Road Stretch,18.721979,79.53747,District Road,Rainy,Good,Daylight,50,99,2,Bus,Rear-End,Minor,27,0,1,0,1
+1352,2022-01-10,06:25,6,Monday,1,2022,Jammikunta–Peddapalli Road,18.558448,79.307042,State Highway,Night Drizzle,Good,Daylight,60,320,3,Truck/Lorry,Side-Swipe,Minor,25,0,0,0,0
+1353,2021-05-01,22:54,22,Saturday,5,2021,Ramagundam Old Town Road,18.767864,79.489718,Urban Road,Clear,Potholed,Dark – No Street Light,40,147,3,Tractor,Rear-End,Serious,69,1,1,0,1
+1354,2023-01-05,15:55,15,Thursday,1,2023,Ramagundam NTPC Gate Road,18.781858,79.478757,Industrial Road,Rainy,Under Construction,Dawn/Dusk,40,120,2,Truck/Lorry,Head-On,Fatal,73,1,0,0,0
+1355,2021-04-05,05:41,5,Monday,4,2021,Dharmaram Crossroad,18.666301,79.363188,Village Road,Clear,Wet,Dark – No Street Light,30,241,3,Bus,Side-Swipe,Serious,42,1,0,0,1
+1356,2022-11-24,13:44,13,Thursday,11,2022,Peddapalli Town Circle,18.609527,79.384804,Urban Road,Foggy,Good,Dark – No Street Light,40,60,2,Auto-Rickshaw,Side-Swipe,Serious,45,1,0,0,0
+1357,2021-11-01,18:35,18,Monday,11,2021,Ramagundam NTPC Gate Road,18.779733,79.492765,Industrial Road,Overcast,Potholed,Daylight,40,112,4,Bus,Hit-and-Run,Serious,45,1,0,1,0
+1358,2021-12-05,05:31,5,Sunday,12,2021,Mancherial Road – Peddapalli Border,18.681384,79.438585,State Highway,Clear,Good,Daylight,60,338,2,Bus,Side-Swipe,Minor,2,1,1,0,1
+1359,2023-07-30,12:36,12,Sunday,7,2023,Ramagundam Bypass Junction,18.752331,79.492417,Bypass,Clear,Under Construction,Daylight,70,379,2,Truck/Lorry,Side-Swipe,Minor,20,0,1,0,0
+1360,2021-03-15,14:00,14,Monday,3,2021,Ramagundam NTPC Gate Road,18.785504,79.497251,Industrial Road,Overcast,Wet,Dawn/Dusk,40,115,2,Bus,Side-Swipe,Serious,45,1,0,0,0
+1361,2023-07-24,21:23,21,Monday,7,2023,Peddapalli Town Circle,18.614254,79.377392,Urban Road,Overcast,Under Construction,Dark – Street Light,40,122,2,Bus,Side-Swipe,Minor,21,1,0,0,1
+1362,2021-07-19,17:14,17,Monday,7,2021,Ramagundam Bypass Junction,18.75671,79.50235,Bypass,Clear,Good,Dark – No Street Light,70,466,3,Bus,Rear-End,Minor,38,1,0,1,0
+1363,2021-12-03,13:52,13,Friday,12,2021,NH-163 Near Peddapalli Toll Plaza,18.615394,79.380805,Highway,Foggy,Wet,Daylight,80,382,2,Car/Jeep,Head-On,Serious,67,1,0,0,0
+1364,2023-07-26,18:12,18,Wednesday,7,2023,Sulthanabad Cross Roads,18.591642,79.420814,Highway,Foggy,Good,Daylight,80,284,4,Tractor,Side-Swipe,Serious,54,1,0,1,0
+1365,2023-10-30,06:31,6,Monday,10,2023,Dharmaram Crossroad,18.67526,79.368663,Village Road,Clear,Wet,Dark – No Street Light,30,208,2,Bus,Rear-End,Serious,41,1,0,0,0
+1366,2021-12-29,16:11,16,Wednesday,12,2021,Srirampur Road Stretch,18.720393,79.525009,District Road,Foggy,Good,Daylight,50,143,2,Auto-Rickshaw,Rear-End,Minor,22,0,0,0,0
+1367,2022-05-24,08:21,8,Tuesday,5,2022,Korutla Junction Near Peddapalli,18.529732,79.33099,State Highway,Night Drizzle,Potholed,Daylight,60,373,2,Tractor,Hit-and-Run,Serious,56,1,0,1,0
+1368,2022-10-05,17:59,17,Wednesday,10,2022,Godavari Bridge NH-163,18.712542,79.517302,Bridge Road,Rainy,Good,Daylight,60,20,3,Tractor,Rear-End,Minor,34,1,0,1,0
+1369,2021-12-31,13:44,13,Friday,12,2021,Ramagundam Old Town Road,18.7568,79.490064,Urban Road,Rainy,Wet,Dark – Street Light,40,238,2,Bus,Side-Swipe,Serious,43,1,0,0,0
+1370,2023-12-30,09:54,9,Saturday,12,2023,Peddapalli Town Circle,18.612881,79.38857,Urban Road,Clear,Good,Daylight,40,65,2,Two-Wheeler,Side-Swipe,Minor,6,0,1,1,0
+1371,2021-11-26,22:43,22,Friday,11,2021,Srirampur Road Stretch,18.721087,79.53935,District Road,Clear,Under Construction,Dark – No Street Light,50,134,2,Bus,Head-On,Serious,69,1,0,0,1
+1372,2022-04-05,17:35,17,Tuesday,4,2022,Ramagundam Bypass Junction,18.755552,79.502025,Bypass,Clear,Potholed,Dark – Street Light,70,339,3,Tractor,Side-Swipe,Serious,52,1,0,1,0
+1373,2023-05-04,21:43,21,Thursday,5,2023,Ramagundam NTPC Gate Road,18.777712,79.494005,Industrial Road,Clear,Potholed,Daylight,40,342,2,Bus,Hit-and-Run,Minor,24,1,0,0,1
+1374,2023-01-24,17:34,17,Tuesday,1,2023,Kataram Village Road,18.645528,79.407935,Village Road,Foggy,Good,Dark – Street Light,30,234,2,Truck/Lorry,Head-On,Minor,37,1,0,1,0
+1375,2021-12-22,17:07,17,Wednesday,12,2021,Manthani Bridge Approach,18.647285,79.668267,District Road,Clear,Potholed,Dark – No Street Light,50,201,2,Bus,Hit-and-Run,Minor,35,1,0,1,0
+1376,2023-08-14,17:09,17,Monday,8,2023,Jammikunta–Peddapalli Road,18.562713,79.306629,State Highway,Clear,Gravelled,Dark – No Street Light,60,208,3,Tractor,Side-Swipe,Serious,54,1,0,1,0
+1377,2023-01-04,05:45,5,Wednesday,1,2023,Dharmaram Crossroad,18.676644,79.366607,Village Road,Clear,Good,Daylight,30,144,1,Bus,Head-On,Minor,22,0,0,0,1
+1378,2022-12-17,08:13,8,Saturday,12,2022,Ramagundam Bypass Junction,18.762869,79.502468,Bypass,Rainy,Good,Daylight,70,333,4,Bus,Rear-End,Serious,57,1,1,1,0
+1379,2021-01-19,06:22,6,Tuesday,1,2021,Mancherial Road – Peddapalli Border,18.68582,79.450947,State Highway,Clear,Under Construction,Dark – No Street Light,60,280,2,Two-Wheeler,Side-Swipe,Minor,35,1,0,0,0
+1380,2021-08-21,11:34,11,Saturday,8,2021,Ramagundam NTPC Gate Road,18.780987,79.496506,Industrial Road,Foggy,Good,Dark – No Street Light,40,51,3,Bus,Rollover,Serious,64,1,1,0,0
+1381,2021-03-31,09:41,9,Wednesday,3,2021,Dharmaram Crossroad,18.681879,79.36425,Village Road,Clear,Potholed,Dawn/Dusk,30,126,2,Bus,Rear-End,Serious,55,1,0,1,0
+1382,2022-03-08,16:49,16,Tuesday,3,2022,Ramagundam Bypass Junction,18.753935,79.500278,Bypass,Clear,Wet,Dark – Street Light,70,310,2,Tractor,Hit-and-Run,Minor,33,1,0,0,0
+1383,2021-05-28,17:09,17,Friday,5,2021,Peddapalli Town Circle,18.6088,79.386973,Urban Road,Clear,Wet,Daylight,40,62,1,Car/Jeep,Rollover,Serious,52,1,0,1,0
+1384,2022-04-12,20:26,20,Tuesday,4,2022,Ramagundam Bypass Junction,18.749843,79.489433,Bypass,Clear,Potholed,Daylight,70,232,1,Tractor,Head-On,Minor,35,1,0,0,1
+1385,2021-05-10,17:37,17,Monday,5,2021,Peddapalli Town Circle,18.609385,79.38721,Urban Road,Clear,Under Construction,Daylight,40,98,2,Auto-Rickshaw,Rollover,Serious,44,1,0,1,0
+1386,2021-06-27,09:59,9,Sunday,6,2021,Korutla Junction Near Peddapalli,18.524559,79.337262,State Highway,Clear,Good,Dark – No Street Light,60,380,2,Bus,Head-On,Serious,42,1,1,1,0
+1387,2022-08-28,21:09,21,Sunday,8,2022,Srirampur Road Stretch,18.718376,79.522503,District Road,Clear,Under Construction,Dawn/Dusk,50,228,3,Tractor,Rear-End,Minor,35,1,1,0,1
+1388,2021-10-17,06:00,6,Sunday,10,2021,Karimnagar Highway Fork Peddapalli,18.593552,79.345773,Highway,Rainy,Good,Dark – No Street Light,80,483,1,Car/Jeep,Side-Swipe,Serious,46,1,1,0,0
+1389,2023-04-26,20:54,20,Wednesday,4,2023,Sulthanabad Cross Roads,18.604199,79.427921,Highway,Rainy,Good,Daylight,80,381,3,Car/Jeep,Head-On,Serious,63,1,0,0,1
+1390,2021-04-22,19:59,19,Thursday,4,2021,Mancherial Road – Peddapalli Border,18.683974,79.449267,State Highway,Night Drizzle,Potholed,Dark – No Street Light,60,345,1,Tractor,Head-On,Fatal,73,1,0,1,0
+1391,2023-09-25,21:22,21,Monday,9,2023,Sulthanabad Cross Roads,18.593406,79.421521,Highway,Clear,Wet,Daylight,80,360,2,Car/Jeep,Rear-End,Minor,34,1,0,0,1
+1392,2022-09-19,16:09,16,Monday,9,2022,Jammikunta–Peddapalli Road,18.55743,79.308997,State Highway,Rainy,Good,Daylight,60,294,2,Two-Wheeler,Rear-End,Minor,17,1,0,0,0
+1393,2023-06-13,08:23,8,Tuesday,6,2023,Peddapalli Town Circle,18.615508,79.374057,Urban Road,Clear,Wet,Dark – Street Light,40,20,2,Auto-Rickshaw,Rollover,Serious,50,1,0,1,0
+1394,2021-08-11,07:38,7,Wednesday,8,2021,Karimnagar Highway Fork Peddapalli,18.601399,79.36096,Highway,Clear,Good,Dark – Street Light,80,211,3,Car/Jeep,Rear-End,Serious,40,1,0,1,0
+1395,2021-06-04,19:54,19,Friday,6,2021,Ramagundam Bypass Junction,18.746947,79.495252,Bypass,Rainy,Good,Dark – No Street Light,70,373,2,Bus,Head-On,Serious,61,1,0,1,0
+1396,2022-06-18,14:34,14,Saturday,6,2022,Karimnagar Highway Fork Peddapalli,18.595588,79.352877,Highway,Clear,Wet,Daylight,80,375,2,Bus,Side-Swipe,Minor,29,0,1,0,0
+1397,2023-11-12,05:23,5,Sunday,11,2023,Karimnagar Highway Fork Peddapalli,18.595658,79.354527,Highway,Rainy,Wet,Dark – Street Light,80,344,3,Bus,Side-Swipe,Serious,66,1,1,0,1
+1398,2023-07-03,07:36,7,Monday,7,2023,Manthani Bridge Approach,18.649993,79.661699,District Road,Night Drizzle,Wet,Dawn/Dusk,50,43,3,Truck/Lorry,Pedestrian,Serious,66,1,0,1,0
+1399,2023-09-26,08:16,8,Tuesday,9,2023,Sulthanabad Cross Roads,18.594202,79.420902,Highway,Clear,Good,Daylight,80,172,4,Auto-Rickshaw,Rear-End,Minor,34,1,0,1,0
+1400,2021-04-06,03:41,3,Tuesday,4,2021,Kataram Village Road,18.64112,79.408821,Village Road,Clear,Wet,Dark – No Street Light,30,194,3,Tractor,Rear-End,Serious,67,1,0,0,1
+1401,2021-12-23,10:24,10,Thursday,12,2021,Korutla Junction Near Peddapalli,18.525853,79.326611,State Highway,Clear,Wet,Dark – Street Light,60,310,2,Truck/Lorry,Pedestrian,Minor,17,0,0,0,0
+1402,2022-12-08,12:30,12,Thursday,12,2022,Jammikunta–Peddapalli Road,18.561444,79.310603,State Highway,Overcast,Good,Dark – Street Light,60,343,2,Car/Jeep,Head-On,Minor,25,0,0,0,0
+1403,2022-01-18,07:38,7,Tuesday,1,2022,Manthani Bridge Approach,18.649685,79.653087,District Road,Foggy,Good,Daylight,50,93,3,Tractor,Head-On,Serious,60,1,0,1,0
+1404,2022-03-08,14:41,14,Tuesday,3,2022,Dharmaram Crossroad,18.668781,79.361535,Village Road,Overcast,Good,Daylight,30,289,2,Car/Jeep,Head-On,Minor,21,0,0,0,0
+1405,2021-10-28,04:16,4,Thursday,10,2021,Korutla Junction Near Peddapalli,18.532475,79.324525,State Highway,Night Drizzle,Potholed,Daylight,60,242,4,Tractor,Head-On,Serious,64,1,0,0,1
+1406,2022-03-20,12:30,12,Sunday,3,2022,Ramagundam Bypass Junction,18.751433,79.501595,Bypass,Overcast,Good,Dark – Street Light,70,399,2,Bus,Rollover,Minor,20,0,1,0,0
+1407,2022-06-26,07:43,7,Sunday,6,2022,Karimnagar Highway Fork Peddapalli,18.611226,79.348062,Highway,Clear,Potholed,Dark – No Street Light,80,233,2,Truck/Lorry,Head-On,Serious,60,1,1,1,0
+1408,2023-12-07,19:32,19,Thursday,12,2023,Sulthanabad Cross Roads,18.595169,79.423069,Highway,Rainy,Under Construction,Dark – No Street Light,80,324,2,Bus,Side-Swipe,Fatal,82,1,0,1,0
+1409,2021-08-29,05:42,5,Sunday,8,2021,Karimnagar Highway Fork Peddapalli,18.599851,79.354219,Highway,Clear,Potholed,Dark – Street Light,80,285,3,Tractor,Side-Swipe,Serious,46,1,1,0,1
+1410,2023-01-29,19:44,19,Sunday,1,2023,Ramagundam NTPC Gate Road,18.782819,79.504053,Industrial Road,Rainy,Good,Dark – Street Light,40,138,3,Truck/Lorry,Rear-End,Serious,48,1,1,1,0
+1411,2023-05-22,06:30,6,Monday,5,2023,Ramagundam Bypass Junction,18.747951,79.499759,Bypass,Foggy,Under Construction,Daylight,70,255,2,Bus,Rear-End,Serious,46,1,0,0,0
+1412,2021-01-15,14:07,14,Friday,1,2021,NH-163 Near Peddapalli Toll Plaza,18.610182,79.390296,Highway,Rainy,Good,Daylight,80,506,3,Truck/Lorry,Rear-End,Minor,34,1,0,0,0
+1413,2022-06-04,08:34,8,Saturday,6,2022,Ramagundam NTPC Gate Road,18.775232,79.495845,Industrial Road,Clear,Good,Daylight,40,284,3,Car/Jeep,Rear-End,Minor,27,0,1,1,0
+1414,2023-09-18,08:19,8,Monday,9,2023,Jammikunta–Peddapalli Road,18.559304,79.309382,State Highway,Rainy,Wet,Daylight,60,430,2,Tractor,Head-On,Serious,62,1,0,1,0
+1415,2021-11-28,06:32,6,Sunday,11,2021,Dharmaram Crossroad,18.669926,79.361754,Village Road,Clear,Good,Dark – No Street Light,30,103,3,Tractor,Head-On,Serious,42,1,1,0,0
+1416,2021-01-11,18:52,18,Monday,1,2021,Peddapalli Town Circle,18.61617,79.37515,Urban Road,Clear,Gravelled,Daylight,40,52,1,Car/Jeep,Rear-End,Minor,39,1,0,1,0
+1417,2023-02-27,20:25,20,Monday,2,2023,NH-163 Near Peddapalli Toll Plaza,18.606421,79.383754,Highway,Rainy,Potholed,Dark – Street Light,80,318,2,Car/Jeep,Side-Swipe,Serious,54,1,0,0,1
+1418,2022-02-18,19:59,19,Friday,2,2022,NH-163 Near Peddapalli Toll Plaza,18.604231,79.38397,Highway,Overcast,Good,Daylight,80,366,2,Bus,Side-Swipe,Minor,29,0,0,1,0
+1419,2023-01-07,08:00,8,Saturday,1,2023,NH-163 Near Peddapalli Toll Plaza,18.608152,79.390463,Highway,Night Drizzle,Good,Daylight,80,398,2,Tractor,Rear-End,Serious,48,1,1,1,0
+1420,2023-11-27,01:45,1,Monday,11,2023,Sulthanabad Cross Roads,18.588475,79.420721,Highway,Clear,Good,Daylight,80,333,3,Bus,Rear-End,Minor,33,1,0,0,1
+1421,2022-02-03,12:25,12,Thursday,2,2022,Sulthanabad Cross Roads,18.59238,79.423694,Highway,Rainy,Good,Daylight,80,344,2,Two-Wheeler,Rear-End,Minor,30,1,0,0,0
+1422,2023-11-18,21:56,21,Saturday,11,2023,Ramagundam Bypass Junction,18.755647,79.493131,Bypass,Rainy,Wet,Daylight,70,226,2,Truck/Lorry,Side-Swipe,Serious,47,1,1,0,1
+1423,2022-11-27,21:29,21,Sunday,11,2022,Srirampur Road Stretch,18.71548,79.531322,District Road,Rainy,Under Construction,Dark – Street Light,50,141,2,Auto-Rickshaw,Head-On,Serious,65,1,1,0,1
+1424,2022-03-28,16:14,16,Monday,3,2022,Srirampur Road Stretch,18.725457,79.538046,District Road,Overcast,Potholed,Daylight,50,248,2,Tractor,Hit-and-Run,Minor,17,0,0,0,0
+1425,2022-12-02,05:59,5,Friday,12,2022,Ramagundam NTPC Gate Road,18.776418,79.499065,Industrial Road,Clear,Good,Daylight,40,62,2,Car/Jeep,Pedestrian,Minor,0,0,0,0,1
+1426,2022-04-26,17:55,17,Tuesday,4,2022,Sulthanabad Cross Roads,18.603597,79.422967,Highway,Clear,Good,Dark – Street Light,80,311,3,Auto-Rickshaw,Head-On,Minor,38,1,0,1,0
+1427,2021-06-10,16:42,16,Thursday,6,2021,Ramagundam Bypass Junction,18.753254,79.500868,Bypass,Clear,Good,Dark – Street Light,70,315,4,Truck/Lorry,Rear-End,Minor,20,0,0,0,0
+1428,2022-07-17,13:48,13,Sunday,7,2022,Kataram Village Road,18.643541,79.406784,Village Road,Overcast,Good,Daylight,30,137,2,Two-Wheeler,Rear-End,Minor,3,0,1,0,0
+1429,2021-03-08,13:25,13,Monday,3,2021,Karimnagar Highway Fork Peddapalli,18.593844,79.344819,Highway,Overcast,Wet,Dark – No Street Light,80,237,2,Bus,Rear-End,Minor,35,1,0,0,0
+1430,2022-03-08,10:06,10,Tuesday,3,2022,NH-163 Near Peddapalli Toll Plaza,18.608683,79.371336,Highway,Clear,Potholed,Daylight,80,340,2,Car/Jeep,Rear-End,Minor,39,1,0,0,0
+1431,2023-01-20,07:27,7,Friday,1,2023,Jammikunta–Peddapalli Road,18.573665,79.31037,State Highway,Clear,Wet,Daylight,60,331,3,Auto-Rickshaw,Rear-End,Serious,48,1,0,1,0
+1432,2022-04-14,18:46,18,Thursday,4,2022,Manthani Bridge Approach,18.653409,79.659606,District Road,Clear,Good,Daylight,50,217,2,Car/Jeep,Rollover,Minor,19,0,0,1,0
+1433,2021-12-28,11:08,11,Tuesday,12,2021,NH-163 Near Peddapalli Toll Plaza,18.612749,79.383437,Highway,Night Drizzle,Under Construction,Dark – No Street Light,80,373,3,Truck/Lorry,Rear-End,Fatal,82,1,0,0,0
+1434,2021-04-08,11:44,11,Thursday,4,2021,Mancherial Road – Peddapalli Border,18.67766,79.44996,State Highway,Clear,Good,Daylight,60,325,3,Two-Wheeler,Rear-End,Minor,10,0,0,0,0
+1435,2022-06-12,10:26,10,Sunday,6,2022,Jammikunta–Peddapalli Road,18.557421,79.313083,State Highway,Clear,Under Construction,Dawn/Dusk,60,286,2,Bus,Side-Swipe,Serious,42,1,1,0,0
+1436,2022-08-06,10:43,10,Saturday,8,2022,Manthani Bridge Approach,18.653141,79.660054,District Road,Rainy,Wet,Daylight,50,78,1,Bus,Rear-End,Serious,50,1,1,0,0
+1437,2021-12-10,15:59,15,Friday,12,2021,Manthani Bridge Approach,18.655373,79.659975,District Road,Clear,Potholed,Dark – No Street Light,50,236,3,Two-Wheeler,Head-On,Serious,60,1,0,0,0
+1438,2022-10-05,09:18,9,Wednesday,10,2022,Sulthanabad Cross Roads,18.598951,79.423789,Highway,Foggy,Potholed,Daylight,80,365,3,Auto-Rickshaw,Side-Swipe,Fatal,76,1,0,1,0
+1439,2023-04-28,07:54,7,Friday,4,2023,Dharmaram Crossroad,18.668441,79.359674,Village Road,Clear,Wet,Dark – No Street Light,30,150,4,Tractor,Side-Swipe,Serious,51,1,0,1,0
+1440,2023-03-25,06:04,6,Saturday,3,2023,Manthani Bridge Approach,18.649952,79.659165,District Road,Night Drizzle,Potholed,Daylight,50,125,3,Bus,Rollover,Serious,57,1,1,0,0
+1441,2022-06-22,15:05,15,Wednesday,6,2022,Ramagundam Bypass Junction,18.757448,79.499848,Bypass,Rainy,Under Construction,Daylight,70,304,2,Auto-Rickshaw,Rear-End,Serious,44,1,0,0,0
+1442,2023-12-15,18:01,18,Friday,12,2023,Manthani Bridge Approach,18.653322,79.650223,District Road,Clear,Good,Dawn/Dusk,50,188,3,Truck/Lorry,Pedestrian,Serious,42,1,0,1,0
+1443,2022-07-12,14:08,14,Tuesday,7,2022,Kataram Village Road,18.63928,79.395952,Village Road,Night Drizzle,Wet,Daylight,30,74,2,Tractor,Side-Swipe,Serious,48,1,0,0,0
+1444,2023-12-09,15:34,15,Saturday,12,2023,Ramagundam NTPC Gate Road,18.785654,79.499094,Industrial Road,Clear,Good,Dark – No Street Light,40,197,3,Truck/Lorry,Rear-End,Minor,28,0,1,0,0
+1445,2021-01-22,00:52,0,Friday,1,2021,Godavari Bridge NH-163,18.709554,79.518743,Bridge Road,Foggy,Good,Daylight,60,132,2,Tractor,Hit-and-Run,Serious,40,1,0,0,1
+1446,2021-01-19,17:51,17,Tuesday,1,2021,Godavari Bridge NH-163,18.699033,79.516488,Bridge Road,Clear,Good,Daylight,60,123,2,Truck/Lorry,Hit-and-Run,Minor,13,0,0,1,0
+1447,2023-03-10,18:14,18,Friday,3,2023,Manthani Bridge Approach,18.653852,79.660903,District Road,Clear,Potholed,Daylight,50,118,3,Bus,Rollover,Serious,53,1,0,1,0
+1448,2023-12-26,18:26,18,Tuesday,12,2023,Godavari Bridge NH-163,18.704285,79.523953,Bridge Road,Clear,Good,Daylight,60,150,2,Truck/Lorry,Side-Swipe,Minor,8,1,0,1,0
+1449,2022-01-20,09:09,9,Thursday,1,2022,Dharmaram Crossroad,18.667576,79.35223,Village Road,Clear,Potholed,Daylight,30,225,2,Auto-Rickshaw,Head-On,Serious,49,1,0,1,0
+1450,2021-01-17,08:09,8,Sunday,1,2021,Ramagundam Old Town Road,18.755166,79.485876,Urban Road,Clear,Good,Daylight,40,224,3,Truck/Lorry,Pedestrian,Minor,24,0,1,1,0
+1451,2022-11-08,05:48,5,Tuesday,11,2022,NH-163 Near Peddapalli Toll Plaza,18.60519,79.384807,Highway,Night Drizzle,Good,Dark – Street Light,80,206,1,Truck/Lorry,Head-On,Serious,43,1,0,0,1
+1452,2023-02-21,18:07,18,Tuesday,2,2023,Mancherial Road – Peddapalli Border,18.678117,79.432045,State Highway,Night Drizzle,Wet,Daylight,60,360,4,Car/Jeep,Side-Swipe,Serious,51,1,0,1,0
+1453,2023-08-02,17:06,17,Wednesday,8,2023,Sulthanabad Cross Roads,18.593959,79.413605,Highway,Rainy,Gravelled,Dark – No Street Light,80,256,3,Auto-Rickshaw,Pedestrian,Fatal,80,1,0,1,0
+1454,2021-03-28,17:35,17,Sunday,3,2021,Peddapalli Town Circle,18.615923,79.381896,Urban Road,Rainy,Good,Dark – No Street Light,40,164,2,Two-Wheeler,Hit-and-Run,Serious,41,1,1,1,0
+1455,2022-04-29,15:20,15,Friday,4,2022,Ramagundam Bypass Junction,18.749935,79.506183,Bypass,Clear,Wet,Dark – No Street Light,70,309,2,Car/Jeep,Head-On,Serious,51,1,0,0,0
+1456,2023-09-01,16:09,16,Friday,9,2023,Korutla Junction Near Peddapalli,18.527863,79.321334,State Highway,Clear,Good,Daylight,60,287,1,Bus,Rear-End,Minor,10,0,0,0,0
+1457,2021-11-12,16:50,16,Friday,11,2021,Jammikunta–Peddapalli Road,18.556776,79.309535,State Highway,Clear,Potholed,Daylight,60,264,2,Tractor,Rollover,Minor,39,1,0,0,0
+1458,2022-01-31,02:24,2,Monday,1,2022,Ramagundam Old Town Road,18.75514,79.478932,Urban Road,Clear,Good,Dark – Street Light,40,286,2,Truck/Lorry,Side-Swipe,Minor,22,0,0,0,1
+1459,2022-01-18,14:20,14,Tuesday,1,2022,Sulthanabad Cross Roads,18.590953,79.417655,Highway,Foggy,Good,Dark – Street Light,80,417,4,Bus,Head-On,Serious,61,1,0,0,0
+1460,2023-07-10,09:16,9,Monday,7,2023,Manthani Bridge Approach,18.649972,79.66923,District Road,Rainy,Potholed,Dark – Street Light,50,233,2,Tractor,Head-On,Serious,55,1,0,1,0
+1461,2023-01-16,17:15,17,Monday,1,2023,Korutla Junction Near Peddapalli,18.52556,79.336787,State Highway,Clear,Good,Dawn/Dusk,60,354,3,Car/Jeep,Rear-End,Serious,40,1,0,1,0
+1462,2021-11-12,15:20,15,Friday,11,2021,Srirampur Road Stretch,18.72371,79.536496,District Road,Clear,Good,Daylight,50,101,3,Two-Wheeler,Hit-and-Run,Minor,4,0,0,0,0
+1463,2022-02-18,06:12,6,Friday,2,2022,NH-163 Near Peddapalli Toll Plaza,18.622008,79.38226,Highway,Clear,Potholed,Dark – Street Light,80,404,3,Bus,Side-Swipe,Serious,48,1,0,0,0
+1464,2021-04-11,10:38,10,Sunday,4,2021,Godavari Bridge NH-163,18.7044,79.514611,Bridge Road,Foggy,Good,Dawn/Dusk,60,89,3,Two-Wheeler,Rear-End,Serious,55,1,1,0,0
+1465,2023-01-10,14:56,14,Tuesday,1,2023,NH-163 Near Peddapalli Toll Plaza,18.614883,79.380273,Highway,Clear,Good,Dark – Street Light,80,461,3,Auto-Rickshaw,Rear-End,Minor,12,1,0,0,0
+1466,2022-03-19,21:06,21,Saturday,3,2022,Ramagundam Bypass Junction,18.748064,79.495342,Bypass,Clear,Good,Daylight,70,314,2,Tractor,Head-On,Minor,35,1,1,0,1
+1467,2023-05-01,17:49,17,Monday,5,2023,Manthani Bridge Approach,18.649716,79.654865,District Road,Rainy,Good,Dark – No Street Light,50,246,3,Two-Wheeler,Head-On,Serious,65,1,0,1,0
+1468,2023-04-03,13:42,13,Monday,4,2023,Karimnagar Highway Fork Peddapalli,18.606429,79.357595,Highway,Clear,Gravelled,Daylight,80,342,2,Auto-Rickshaw,Side-Swipe,Minor,30,1,0,0,0
+1469,2023-02-01,11:40,11,Wednesday,2,2023,Mancherial Road – Peddapalli Border,18.677216,79.437891,State Highway,Clear,Wet,Dark – No Street Light,60,379,2,Car/Jeep,Rear-End,Serious,42,1,0,0,0
+1470,2022-06-05,10:28,10,Sunday,6,2022,Kataram Village Road,18.638387,79.400746,Village Road,Clear,Good,Dark – Street Light,30,270,4,Bus,Head-On,Minor,19,1,1,0,0
+1471,2021-01-14,09:14,9,Thursday,1,2021,Godavari Bridge NH-163,18.704881,79.520279,Bridge Road,Clear,Good,Dark – Street Light,60,256,4,Auto-Rickshaw,Hit-and-Run,Minor,26,0,0,1,0
+1472,2021-11-13,06:29,6,Saturday,11,2021,Kataram Village Road,18.636782,79.406639,Village Road,Clear,Good,Daylight,30,323,2,Car/Jeep,Rear-End,Minor,0,0,1,0,0
+1473,2022-03-22,17:46,17,Tuesday,3,2022,Ramagundam NTPC Gate Road,18.779343,79.500642,Industrial Road,Clear,Potholed,Dark – No Street Light,40,154,3,Tractor,Side-Swipe,Serious,48,1,0,1,0
+1474,2022-09-08,03:51,3,Thursday,9,2022,Korutla Junction Near Peddapalli,18.530691,79.331363,State Highway,Rainy,Good,Daylight,60,340,3,Auto-Rickshaw,Hit-and-Run,Serious,48,1,0,0,1
+1475,2021-09-04,19:14,19,Saturday,9,2021,Ramagundam NTPC Gate Road,18.773804,79.487776,Industrial Road,Foggy,Under Construction,Dawn/Dusk,40,120,2,Tractor,Rear-End,Serious,64,1,1,1,0
+1476,2021-03-26,09:36,9,Friday,3,2021,Karimnagar Highway Fork Peddapalli,18.610781,79.348484,Highway,Clear,Potholed,Daylight,80,142,1,Tractor,Pedestrian,Serious,44,1,0,1,0
+1477,2023-10-31,05:27,5,Tuesday,10,2023,Srirampur Road Stretch,18.718616,79.536537,District Road,Clear,Good,Daylight,50,132,1,Bus,Side-Swipe,Minor,7,0,0,0,1
+1478,2023-03-28,13:49,13,Tuesday,3,2023,Ramagundam Bypass Junction,18.759102,79.497285,Bypass,Rainy,Wet,Dark – No Street Light,70,365,2,Truck/Lorry,Side-Swipe,Serious,61,1,0,0,0
+1479,2023-12-10,08:04,8,Sunday,12,2023,Karimnagar Highway Fork Peddapalli,18.601913,79.352757,Highway,Clear,Potholed,Dark – No Street Light,80,286,2,Two-Wheeler,Side-Swipe,Serious,58,1,1,1,0
+1480,2022-12-15,07:22,7,Thursday,12,2022,Jammikunta–Peddapalli Road,18.563655,79.314074,State Highway,Rainy,Good,Daylight,60,428,4,Bus,Rollover,Serious,59,1,0,1,0
+1481,2021-10-26,12:59,12,Tuesday,10,2021,Korutla Junction Near Peddapalli,18.533867,79.326905,State Highway,Overcast,Good,Daylight,60,353,3,Two-Wheeler,Head-On,Minor,16,0,0,0,0
+1482,2021-10-30,19:52,19,Saturday,10,2021,Korutla Junction Near Peddapalli,18.529998,79.322743,State Highway,Clear,Good,Dark – Street Light,60,196,2,Truck/Lorry,Head-On,Minor,21,1,1,1,0
+1483,2022-02-22,14:48,14,Tuesday,2,2022,Sulthanabad Cross Roads,18.594932,79.427191,Highway,Clear,Potholed,Dark – Street Light,80,257,2,Tractor,Side-Swipe,Minor,32,1,0,0,0
+1484,2023-12-15,04:10,4,Friday,12,2023,Korutla Junction Near Peddapalli,18.529544,79.334511,State Highway,Clear,Good,Dark – No Street Light,60,301,2,Truck/Lorry,Side-Swipe,Minor,5,0,0,0,1
+1485,2022-07-10,16:58,16,Sunday,7,2022,Peddapalli Town Circle,18.629008,79.381828,Urban Road,Rainy,Under Construction,Daylight,40,169,3,Tractor,Rear-End,Serious,52,1,1,0,0
+1486,2021-07-23,20:31,20,Friday,7,2021,Karimnagar Highway Fork Peddapalli,18.604267,79.355906,Highway,Overcast,Potholed,Daylight,80,159,2,Truck/Lorry,Side-Swipe,Minor,20,0,0,0,1
+1487,2023-12-21,09:31,9,Thursday,12,2023,Kataram Village Road,18.643366,79.401308,Village Road,Clear,Good,Daylight,30,253,2,Tractor,Rear-End,Minor,16,0,0,1,0
+1488,2022-06-12,19:56,19,Sunday,6,2022,NH-163 Near Peddapalli Toll Plaza,18.613155,79.377847,Highway,Night Drizzle,Gravelled,Dawn/Dusk,80,202,4,Car/Jeep,Head-On,Fatal,100,1,1,1,0
+1489,2021-10-09,05:24,5,Saturday,10,2021,Peddapalli Town Circle,18.618943,79.38735,Urban Road,Rainy,Wet,Dark – Street Light,40,103,3,Truck/Lorry,Head-On,Serious,59,1,1,0,1
+1490,2022-10-02,20:21,20,Sunday,10,2022,Ramagundam NTPC Gate Road,18.772021,79.495223,Industrial Road,Clear,Good,Dark – No Street Light,40,181,2,Tractor,Rollover,Minor,24,0,1,0,1
+1491,2023-12-09,20:27,20,Saturday,12,2023,Ramagundam Old Town Road,18.758951,79.48633,Urban Road,Night Drizzle,Gravelled,Daylight,40,245,4,Car/Jeep,Rear-End,Serious,57,1,1,0,1
+1492,2021-08-31,07:53,7,Tuesday,8,2021,Karimnagar Highway Fork Peddapalli,18.596576,79.357241,Highway,Overcast,Wet,Dark – Street Light,80,301,3,Truck/Lorry,Pedestrian,Serious,49,1,0,1,0
+1493,2022-07-15,07:12,7,Friday,7,2022,Dharmaram Crossroad,18.677098,79.360563,Village Road,Clear,Good,Dark – Street Light,30,140,2,Auto-Rickshaw,Side-Swipe,Minor,19,0,0,1,0
+1494,2022-04-18,16:22,16,Monday,4,2022,Sulthanabad Cross Roads,18.595612,79.419136,Highway,Clear,Wet,Daylight,80,265,3,Truck/Lorry,Side-Swipe,Serious,41,1,0,0,0
+1495,2023-03-05,13:08,13,Sunday,3,2023,Manthani Bridge Approach,18.651002,79.661223,District Road,Clear,Good,Daylight,50,288,4,Auto-Rickshaw,Pedestrian,Minor,7,1,1,0,0
+1496,2022-02-23,05:59,5,Wednesday,2,2022,Sulthanabad Cross Roads,18.584908,79.412196,Highway,Night Drizzle,Potholed,Dark – No Street Light,80,374,3,Truck/Lorry,Hit-and-Run,Fatal,78,1,0,0,1
+1497,2021-03-27,15:52,15,Saturday,3,2021,Ramagundam NTPC Gate Road,18.784313,79.490241,Industrial Road,Clear,Good,Dark – No Street Light,40,27,3,Bus,Rear-End,Minor,35,1,1,0,0
+1498,2021-03-20,13:28,13,Saturday,3,2021,Kataram Village Road,18.637179,79.402923,Village Road,Clear,Under Construction,Dark – Street Light,30,354,2,Bus,Rear-End,Minor,11,0,1,0,0
+1499,2021-04-11,07:28,7,Sunday,4,2021,Karimnagar Highway Fork Peddapalli,18.61053,79.364308,Highway,Clear,Good,Dark – Street Light,80,423,2,Truck/Lorry,Rear-End,Minor,11,0,1,1,0
+1500,2021-10-19,12:41,12,Tuesday,10,2021,Kataram Village Road,18.64512,79.404963,Village Road,Clear,Wet,Daylight,30,246,3,Tractor,Rear-End,Minor,32,1,0,0,0
