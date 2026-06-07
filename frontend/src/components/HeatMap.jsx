@@ -1,20 +1,25 @@
 import React, { useEffect, useRef } from "react";
 
 const RISK_COLORS = {
-  Critical: "#FF3B30",
-  High:     "#FF9500",
-  Medium:   "#FFCC00",
-  Low:      "#34C759",
+  Critical: "#DC2626",
+  High:     "#EF4444",
+  Medium:   "#CA8A04",
+  Low:      "#16A34A",
+};
+
+const RISK_BG = {
+  Critical: "#FEF2F2",
+  High:     "#FEF2F2",
+  Medium:   "#FEFCE8",
+  Low:      "#F0FDF4",
 };
 
 export default function HeatMap({ zones }) {
-  const mapRef    = useRef(null);
-  const mapInst   = useRef(null);
-  const markersRef = useRef([]);
+  const mapRef  = useRef(null);
+  const mapInst = useRef(null);
 
   useEffect(() => {
     if (mapInst.current || !zones || zones.length === 0) return;
-
     const L = window.L;
     if (!L) return;
 
@@ -25,91 +30,83 @@ export default function HeatMap({ zones }) {
       attributionControl: false,
     });
 
+    // Light CartoDB tiles
     L.tileLayer(
-      "https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png",
+      "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
       { maxZoom: 19 }
     ).addTo(mapInst.current);
 
     zones.forEach(zone => {
-      const color = RISK_COLORS[zone.risk_label] || "#fff";
+      const color  = RISK_COLORS[zone.risk_label] || "#22C55E";
+      const bgCol  = RISK_BG[zone.risk_label]    || "#F0FDF4";
 
       const icon = L.divIcon({
         html: `
           <div style="
-            width: 44px; height: 44px;
-            background: ${color}22;
-            border: 2px solid ${color};
+            width: 48px; height: 48px;
+            background: ${bgCol};
+            border: 2.5px solid ${color};
             border-radius: 50%;
             display: flex; align-items: center; justify-content: center;
-            box-shadow: 0 0 20px ${color}66;
-            font-size: 18px;
-            backdrop-filter: blur(4px);
+            box-shadow: 0 4px 16px ${color}40, 0 0 0 6px ${color}15;
+            font-size: 20px;
+            cursor: pointer;
+            transition: transform 0.2s;
           ">⚠</div>
         `,
         className: "",
-        iconSize: [44, 44],
-        iconAnchor: [22, 22],
+        iconSize: [48, 48],
+        iconAnchor: [24, 24],
       });
 
-      const marker = L.marker([zone.latitude, zone.longitude], { icon })
+      L.marker([zone.latitude, zone.longitude], { icon })
         .bindPopup(`
           <div style="
-            background: #111; color: #fff;
-            border-radius: 12px; padding: 14px;
-            font-family: Sora, sans-serif; min-width: 200px;
-            border: 1px solid ${color}40;
+            font-family: 'DM Sans', sans-serif;
+            min-width: 210px; padding: 4px;
           ">
-            <div style="font-weight:700; margin-bottom:8px; font-size:13px; color:${color}">
-              ${zone.risk_label} Risk Zone
-            </div>
-            <div style="font-size:12px; color:rgba(255,255,255,0.75); margin-bottom:10px; line-height:1.5">
+            <div style="
+              display:inline-block; padding:4px 12px; border-radius:20px;
+              background:${bgCol}; border:1px solid ${color}40;
+              color:${color}; font-weight:700; font-size:12px; margin-bottom:10px;
+            ">${zone.risk_label} Risk</div>
+
+            <div style="font-weight:700; font-size:13px; color:#0F172A; margin-bottom:10px; line-height:1.4">
               ${zone.location_name}
             </div>
-            <div style="display:grid; grid-template-columns:1fr 1fr; gap:8px; font-size:12px;">
-              <div style="background:rgba(255,255,255,0.06); padding:8px; border-radius:8px; text-align:center">
-                <div style="color:${color}; font-weight:700; font-size:16px">${zone.avg_risk_score.toFixed(0)}</div>
-                <div style="color:rgba(255,255,255,0.4); font-size:10px">Risk Score</div>
-              </div>
-              <div style="background:rgba(255,255,255,0.06); padding:8px; border-radius:8px; text-align:center">
-                <div style="color:#fff; font-weight:700; font-size:16px">${zone.total_accidents}</div>
-                <div style="color:rgba(255,255,255,0.4); font-size:10px">Accidents</div>
-              </div>
-              <div style="background:rgba(255,59,48,0.1); padding:8px; border-radius:8px; text-align:center">
-                <div style="color:#FF3B30; font-weight:700; font-size:16px">${zone.fatal_count}</div>
-                <div style="color:rgba(255,255,255,0.4); font-size:10px">Fatal</div>
-              </div>
-              <div style="background:rgba(255,149,0,0.1); padding:8px; border-radius:8px; text-align:center">
-                <div style="color:#FF9500; font-weight:700; font-size:16px">${zone.serious_count}</div>
-                <div style="color:rgba(255,255,255,0.4); font-size:10px">Serious</div>
-              </div>
+
+            <div style="display:grid; grid-template-columns:1fr 1fr; gap:8px; margin-bottom:10px;">
+              ${[
+                ["Risk Score", zone.avg_risk_score.toFixed(0), color],
+                ["Accidents",  zone.total_accidents,            "#3B82F6"],
+                ["Fatal",      zone.fatal_count,                "#EF4444"],
+                ["Serious",    zone.serious_count,              "#CA8A04"],
+              ].map(([l, v, c]) => `
+                <div style="background:#F8FAFC;border:1px solid #E2E8F0;padding:8px;border-radius:10px;text-align:center">
+                  <div style="color:${c};font-weight:800;font-size:17px;font-family:'Bricolage Grotesque',sans-serif">${v}</div>
+                  <div style="color:#94A3B8;font-size:10px;text-transform:uppercase;letter-spacing:0.5px;margin-top:2px">${l}</div>
+                </div>
+              `).join("")}
             </div>
-            <div style="margin-top:10px; font-size:11px; color:rgba(255,255,255,0.35)">
+
+            <div style="font-size:11px;color:#94A3B8;border-top:1px solid #F1F5F9;padding-top:8px">
               ${zone.top_road_type} · ${zone.top_weather}
             </div>
           </div>
-        `, { maxWidth: 260 })
+        `, { maxWidth: 270 })
         .addTo(mapInst.current);
-
-      markersRef.current.push(marker);
     });
 
     return () => {
       mapInst.current?.remove();
       mapInst.current = null;
-      markersRef.current = [];
     };
   }, [zones]);
 
   return (
-    <div
-      ref={mapRef}
-      style={{
-        width: "100%", height: 460, borderRadius: 20,
-        overflow: "hidden",
-        border: "1px solid rgba(255,255,255,0.08)",
-        background: "#0a0a0a",
-      }}
-    />
+    <div style={{ borderRadius: 20, overflow: "hidden", border: "1.5px solid #E2E8F0",
+      boxShadow: "0 4px 20px rgba(15,23,42,0.08)" }}>
+      <div ref={mapRef} style={{ width: "100%", height: 480, background: "#F8FAFC" }} />
+    </div>
   );
-            }
-        
+}
