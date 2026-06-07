@@ -2,7 +2,8 @@ import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import HeatMap from "../components/HeatMap";
 import ZoneTable from "../components/ZoneTable";
-import { ... } from "../hooks/useAccidentData";
+import { useZones } from "../hooks/useAccidentData"; // 👈 Specify useZones here!
+
 
 
 const LEGEND = [
