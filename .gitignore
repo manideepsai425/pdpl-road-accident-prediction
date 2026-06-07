@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ML artifacts — comment out if you want to commit .pkl files
+# backend/app/ml/artifacts/*.pkl
+# backend/app/ml/artifacts/*.joblib
+
+# Node
+node_modules/
+dist/
+.cache/
+*.local
+
+# Vite
+frontend/dist/
+frontend/.vite/
+
+# Env files
+.env
+.env.local
+.env.production
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
